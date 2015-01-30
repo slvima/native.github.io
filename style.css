@@ -1,0 +1,622 @@
+
+
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+body, html {
+margin:0px; /*Это хорошая практика обнулять поля и отсупы, т.к. различные браузеры их по разному воспринимают. */
+padding:0px;
+text-align:center; /*Выравниваем макет по центру в старых версиях браузеров */
+height:100%;
+    -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+    
+}
+
+
+
+@font-face {
+    font-family: 'heliosthinregular';
+    src: url('fonts/heliosthin-webfont.eot');
+    src: url('fonts/heliosthin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/heliosthin-webfont.woff2') format('woff2'),
+         url('fonts/heliosthin-webfont.woff') format('woff'),
+         url('fonts/heliosthin-webfont.ttf') format('truetype'),
+         url('fonts/heliosthin-webfont.svg#heliosthinregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'big_johnregular';
+    src: url('fonts/big/big_john-webfont.eot');
+    src: url('fonts/big/big_john-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/big/big_john-webfont.woff2') format('woff2'),
+         url('fonts/big/big_john-webfont.woff') format('woff'),
+         url('fonts/big/big_john-webfont.ttf') format('truetype'),
+         url('fonts/big/big_john-webfont.svg#big_johnregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+ @font-face {
+    font-family: Slim Joe; 
+    src: 
+         url('fonts/big/Slim Joe.otf');
+  }
+@font-face {
+    font-family: din-light; 
+    src: 
+         url('fonts/big/ufonts.com_din-light.ttf');
+  }
+
+#container{
+    margin: 0px;
+height: 100%;
+
+text-align:left;  /*Отменяем tex-align:center заданное в Body. Делаем чтобы весь текст в макете выравнивался по левому краю */
+min-width:480px;  /*задаем минимальную ширину макета в современных браузерах */
+width:expression(   /*задаем минимальную ширину макета в старых версия браузера. Просто замените цифру на свою шиирину :) */
+(document.compatMode && document.compatMode == 'CSS1Compat')
+?
+(
+document.documentElement.clientWidth < 550
+?
+"550px"
+:
+"auto"
+)
+:
+(
+document.body.clientWidth < 550
+?
+"550px"
+:
+"auto"
+)
+);
+}
+/*Здесь пишем стили для шапки сайта */
+
+.prov {
+   width:100%;
+height:1px;
+background: rgba(245, 245, 245, 0.22);
+
+   }
+
+
+.cd-section {
+  
+  position: relative;
+ 
+}
+
+
+.header{
+    margin: 0 auto;
+	
+width: 100%;
+  height: 0;
+  padding-top: 42%; /* ratio of image * 100 */
+  overflow: hidden;
+  position: relative;
+}
+
+.caption-1 {
+    width: 100%;
+   
+height: 100%;
+position: absolute;
+top: 0;
+    margin: 0px;
+text-align: center;
+z-index: 1000;
+background: rgba(51,71,89,0.5);
+}
+.header h1 {
+  padding:94px 0px 6px 0px;
+	   color: rgb(255, 255, 255);  
+      width: 100%;
+      font-size: 65px;
+      box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      font-weight: 300;
+      margin: 0;
+  font-family: 'big_johnregular', sans-serif;
+      text-align: center;
+
+    -webkit-transition: 0.5s ease;
+ -moz-transition: 0.5s ease;
+-o-transition: 0.5s ease;
+-ms-transition: 0.5s ease;
+transition: 0.5s ease;
+  }
+@media screen and (max-width: 850px) {
+    .header h1 {
+        padding:43px 0px 6px 0px;
+     font-size: 47px;
+    }
+    
+}
+@media screen and (max-width: 650px) {
+    .header h1 {
+        padding:19px 0px 6px 0px;
+     font-size: 29px;
+    }
+    
+}
+
+
+.header h2 {
+     padding:14px 0px 5px 0px;
+	  color: #fff;     
+      width: 100%;
+      font-size: 17px;
+      box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      font-weight: 300;
+      margin: 0;
+       font-family: 'din-light', Calibri, Arial, sans-serif;
+      text-transform: uppercase;
+      text-align: center;
+    
+  }
+
+
+.header h4 {
+  padding:0px 0px 0px 0px;
+	  color: #fff;     
+      width: 100%;
+      font-size: 29px;
+      box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      font-weight: 300;
+      margin: 0;
+      font-family: 'Open Sans';
+      text-align: center;
+   -webkit-transition: 0.5s ease;
+ -moz-transition: 0.5s ease;
+-o-transition: 0.5s ease;
+-ms-transition: 0.5s ease;
+transition: 0.5s ease;
+}
+@media screen and (max-width: 850px) {
+    .header h4 {
+       
+     font-size: 23px;
+    }
+    
+}
+@media screen and (max-width: 650px) {
+    .header h4 {
+        
+     font-size: 18px;
+    }
+    
+}
+
+    
+
+
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:700);
+
+
+
+
+
+
+a {
+	text-decoration: none;
+	color: #fff;
+    cursor: pointer;
+}
+
+.sl1 h6 {
+	padding: 0px 35px 5px;
+      width: 100%;
+      font-size: 20px;
+      box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      font-weight: 100;
+      margin: 0;
+      font-family: 'HeliosThin';   
+      text-align: left;
+}
+/*Здесь пишем стили для правой колонки сайта */
+
+.content{
+
+}
+
+
+.sq{
+
+	
+    position: absolute;
+	top: 0;
+    width: 100%;
+	
+ 
+
+}
+
+
+
+.sl {
+    position: relative;
+	background: #f4f4f4;
+    height: 100%;
+    margin: 0px;
+    padding: 100px 0px 100px 0px;
+    -webkit-transition: 0.5s ease;
+ -moz-transition: 0.5s ease;
+-o-transition: 0.5s ease;
+-ms-transition: 0.5s ease;
+transition: 0.5s ease;
+}
+@media screen and (max-width: 650px) {
+    .sl {
+     padding: 50px 0px 50px 0px;
+    }
+}
+
+  .sl h6 {
+  padding:23px 35px 107px 50px;
+	   color: rgb(147, 147, 147);
+      width: 100%;
+      font-size: 14px;
+      box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      font-weight: 300;
+      margin: 0;
+      font-family: 'Open Sans', sans-serif;
+      text-align: center;
+}
+.sl h3 {
+  padding:25px 25px 20px;
+	  color: #454545;     
+      width: 100%;
+      font-size: 27px;
+      box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      font-weight: 300;
+      margin: 0;
+      font-family: 'heliosthinregular';   
+      text-align: center;
+   -webkit-transition: 0.5s ease;
+ -moz-transition: 0.5s ease;
+-o-transition: 0.5s ease;
+-ms-transition: 0.5s ease;
+transition: 0.5s ease;
+}
+@media screen and (max-width: 650px) {
+    .sl h3 {
+        font-size: 19px;
+    }
+}
+.sl h1 {
+  padding:0px 0px 0px;
+	  color: #454545;     
+      width: 100%;
+      font-size: 41px;
+      box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      font-weight: 100;
+      margin: 0;
+      font-family: 'heliosthinregular';   
+      text-align: center;
+}
+
+
+
+#clear{
+height:0;
+font-size:1px;
+line-height:0px;
+clear:both;
+}
+
+
+
+
+.loop {
+    width: 100%;
+    height: 100%;
+ margin: -2px;
+    position: relative;
+}
+
+.in-loop {
+    padding: 4px 0px 0px 0px;
+   top: 0px;
+    text-align: center;
+    width: 100%;
+}
+.loop h5 {   
+    padding:5px 0px 0px 0px;
+	  color: rgb(186, 186, 186);     
+     width: 100%;
+      font-size: 15px;
+      box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      font-weight: 300;
+      margin: 0;
+
+       font-family: 'Source Sans Pro', sans-serif;
+      text-transform: uppercase;
+      text-align: center;
+}
+.loop p {
+    color: #b5b5b5;
+      font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    text-overflow: clip;
+    margin: 5px;
+ font-weight: 400;
+}
+.pic {
+    padding: 0px;
+	margin: -4px;
+	position: relative;
+    display: inline-block;
+}
+
+
+
+#footer ul {
+    list-style: none;
+  margin-left: 35px;
+    margin-top: 40px;
+  padding: 40px 0px 0px 20px;
+  line-height: 1.9;
+  display: block;
+    font-weight: 300;
+    color: #fff;
+    
+}
+
+
+.caption-header {
+    position: relative;
+    text-align: center;
+    min-width: 450px;
+}
+
+
+
+
+.header-logo {
+    width: 100%;
+    position:absolute;
+    text-align: center;
+    min-width:680px;
+    opacity: 0.7;
+}
+
+.cd-scroll-down {
+    position: relative;
+	display: block;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    margin: 0 auto;
+    top: -24px;
+    border-radius: 50px;
+     border: 2px solid  #dbdbdb;
+    background: rgba(255, 255, 255, 0);
+    
+     -moz-transform: rotate(45deg);  /* Firefox */
+  -o-transform: rotate(45deg);  /* Opera */
+  -webkit-transform: rotate(45deg);  /* Safari y Chrome */
+       -ms-transform: rotate(45deg);
+    -webkit-transition: 0.2s ease;
+     -moz-transition: 0.2s ease;
+	-o-transition: 0.2s ease;
+	-ms-transition: 0.2s ease;
+	transition: 0.2s ease;
+
+}
+
+@media only screen and (max-width: 1020px) {
+  .cd-scroll-down {
+    display: none;
+  }
+}
+
+
+.cd-scroll-down:hover {
+    cursor: pointer;
+    border: 2px solid #fff;
+    background: rgba(255, 255, 255, 0);
+    top: -21px;
+      
+   
+}
+
+
+.scroll-icon {
+    position: relative;
+    width: 41px;
+    height: 45px;
+    right:0px;
+    top: -7px;
+    color: #dbdbdb;
+    font-size: 30px;
+     -moz-transform: rotate(225deg);  /* Firefox */
+  -o-transform: rotate(225deg);  /* Opera */
+  -webkit-transform: rotate(225deg);  /* Safari y Chrome */
+       -ms-transform: rotate(225deg);
+}
+.scroll-icon:hover {
+ color: #fff;
+    -webkit-transition: 0.2s ease;
+     -moz-transition: 0.2s ease;
+	-o-transition: 0.2s ease;
+	-ms-transition: 0.2s ease;
+	transition: 0.2s ease;
+}
+/*Здесь пишем стили для подвала сайта */
+
+#footer{
+    position: relative;
+    width: 100%;
+    margin: 0;
+height: 300px;
+     
+    
+}
+
+
+
+a { 
+   color:#fff;
+   
+    text-decoration: none; 
+   }
+#footer p{
+margin:0px;  /* обнуляем отступы*/
+padding: 10px 0; /*  задаем поля */
+}
+
+#footer h6 {
+	
+	  color: #fff;     
+      width: 100%;
+      font-size: 14px;
+      box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      font-weight: 300;
+      margin: 0;
+      font-family: '';   
+      
+}
+
+
+
+#sl-footer {
+    
+	background: rgb(244, 244, 244);
+    height: 100%;
+    
+    width: 100%;
+    
+}
+
+.another-content {   
+	background: rgb(244, 244, 244);
+    height: 50px;
+    width: 100%;
+    margin: 0;
+    
+}
+.prov-footer {
+height:1px;
+background: rgb(230, 230, 230);
+    width: 1165px;
+    margin: 0 auto;
+   }
+
+#sl-footer p{
+   padding:0px 20px 4px 0px;
+	   color: #e8c193;
+      width: 100%;
+      font-size: 15px;
+      box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      font-weight: 500;
+      margin: 0;
+      font-family: 'Open Sans', sans-serif;
+      text-align: center;
+}
+
+#sl-footer h6 {
+  padding:0px 0px 33px 138px;
+	   color: #848484;
+      width: 100%;
+      font-size: 15px;
+      box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      font-weight: 300;
+      margin: 0;
+     font-family: 'Open Sans', sans-serif;
+      text-align: center;
+}
+#sl-footer h2 {
+  padding:0px 0px 4px 0px;
+	   color: #848484;
+      width: 100%;
+      font-size: 15px;
+      box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      font-weight: 300;
+      margin: 0;
+      font-family: 'Open Sans', sans-serif;
+      text-align: center;
+}
+
+
+
+
+.scroll-ico {
+    position: relative;
+    top: 10px;
+    text-align: center;
+    margin: 0 auto;
+    opacity: .7;
+}
+
+.zoom {
+ cursor: pointer;
+        }
+
+.folded {
+-webkit-transition: 0.5s ease;
+ -moz-transition: 0.5s ease;
+-o-transition: 0.5s ease;
+-ms-transition: 0.5s ease;
+transition: 0.5s ease;
+     padding: 50px;
+    margin: 0 auto;
+    
+}
+.folded:hover {
+
+   -webkit-transition: 0.5s ease;
+ -moz-transition: 0.5s ease;
+-o-transition: 0.5s ease;
+-ms-transition: 0.5s ease;
+transition: 0.5s ease;
+
+}
+
+
+#contact {
+   background: rgb(244, 244, 244);
+    width: 100%;
+    padding: 40px 0px 0px 0px;
+
+}
+
+.audio-central {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+   z-index: 10000;
+}
+
+
