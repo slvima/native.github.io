@@ -1,238 +1,156 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<meta charset="utf-8">
-<title>Native</title>
-<link href="style.css" rel="stylesheet" type="text/css">
-<link rel="stylesheet" type="text/css" href="css/vertical.css" />
-<link rel="stylesheet" href="css/responsiveslides.css">
-<link rel="stylesheet" href="css/animated-text.css">
-<link rel="stylesheet" href="css/reset-animated-text.css">
-<link rel="stylesheet" href="css/circle.player.css">
-
-<link rel="shortcut icon" href="images/ico/favicon.ico" type="image/x-icon">
-
-<link href='http://fonts.googleapis.com/css?family=Poiret+One|Anton|Josefin+Slab|Amatic+SC|Cinzel' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,700' rel='stylesheet' type='text/css'>    
-    <script src="js/modernizr.custom2.js"></script>
-    <script src="js/modernizr.js"></script> 
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-    <script src="js/modernizr-animated-word.js"></script>
-    <script src="js/responsiveslides.min.js"></script>
-    <!-- Скрипты плеера -->
-
-<script type="text/javascript" src="js/jquery.jplayer.min.js"></script>
-<script type="text/javascript" src="js/jquery.transform2d.js"></script>
-<script type="text/javascript" src="js/jquery.grab.js"></script>
-<script type="text/javascript" src="js/mod.csstransforms.min.js"></script>
-<script type="text/javascript" src="js/circle.player.js"></script>
-    
-    <!--Скрипт на слайдер-->
-    <script>
-    // You can also use "$(window).load(function() {"
-    $(function () {
-
-      // Slideshow 1
-      $("#slider1").responsiveSlides({
-        minwidth: 1361,
-        speed: 3000,
-          timeout: 6500
-      });
-    });
-  </script>
-
-<!--Скрипт на плеер-->
-   <script type="text/javascript">
-//<![CDATA[
-
-$(document).ready(function(){
-
-	/*
-	 * Instance CirclePlayer inside jQuery doc ready
-	 *
-	 * CirclePlayer(jPlayerSelector, media, options)
-	 *   jPlayerSelector: String - The css selector of the jPlayer div.
-	 *   media: Object - The media object used in jPlayer("setMedia",media).
-	 *   options: Object - The jPlayer options.
-	 *
-	 * Multiple instances must set the cssSelectorAncestor in the jPlayer options. Defaults to "#cp_container_1" in CirclePlayer.
-	 *
-	 * The CirclePlayer uses the default supplied:"m4a, oga" if not given, which is different from the jPlayer default of supplied:"mp3"
-	 * Note that the {wmode:"window"} option is set to ensure playback in Firefox 3.6 with the Flash solution.
-	 * However, the OGA format would be used in this case with the HTML solution.
-	 */
-
-	var myCirclePlayer = new CirclePlayer("#jquery_jplayer_1",
-	{
-		m4a: "audio/Slowly-JASIMprod.m4a",
-		oga: "audio/Slowly-JASIMprod.ogg"
-	}, {
-		cssSelectorAncestor: "#cp_container_1",
+	<head>
+		<meta charset="UTF-8" />
+		<title>nova</title>
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'> 	
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+	    <link rel="stylesheet" type="text/css" href="css/animations.css">
+	    
+	    <script src="js/jquery-1.6.1.min.js"></script>
+ 	   
+	</head>
+	<body>
+		<div class="container">
 		
-		wmode: "window",
-		keyEnabled: true,
-        loop: true
-	});
-});
-//]]>
-</script>
-  
-</head>
-<body>
-	
+			<section class="header">
+        	         <video autoplay loop muted poster="images/bg/poster.jpg" id="myVideo">
+				        <source src="images/bg/sea.mp4" type="video/mp4">
+				        <source src="images/bg/sea.webm" type="video/webm">
+			        </video>
+                <div class="blue-effect-header">
+         	      <div class="title-header">
+			 	    <h1>Photo book & Tr∧vL </h1> 
+                    <h2>A&nbsp; p l a c e,&nbsp; w h e r e&nbsp; e y e s&nbsp;  p u p i l s</h2>    
+                    <h2>a r e&nbsp; d i l a t e d</h2>
+                    <h4>∴</h4>
+                  </div>
+                  <div class="button-scroll-down">
+                      <div id="object" class="floating">   
+                           <a href="#section2" class="cd-scroll-down"><div class="scroll-icon">‹</div></a>
+                      </div>                  
+                  </div>
+			 	</div>
+			</section>
+       
+           <!--
+			<section class="ss-style-doublediagonal">
+          
+            </section>	-->
+            <div class="content">
+               <section id="animate-title-content">        
+                    <div class="device-arrow">
+                       <div class="title-content">
+                         <div class="pic-logo"> <img src="images/ico/pic.svg" width="19px"> </div>
+                         <h1>VIEW THE</h1> 
+                         <h2> c o l l e c t i o n </h2>
+                       </div>
+                    </div> 
+                </section> 
 
-<div id="container">
-<div class="audio-central">
-
-<div id="jquery_jplayer_1" class="cp-jplayer"></div>
-			<div id="cp_container_1" class="cp-container">
-				<ul class="cp-controls">
-					<li><a class="cp-play" tabindex="1">play</a></li>
-					<li><a class="cp-pause" style="display:none;" tabindex="1">pause</a></li> 
-				</ul>
-			</div>
-
-</div>
-
-
-<div class="header">
-
-<div class="sq">
-<ul class="rslides" id="slider1">
-
-    <li><img src="images/bg/gubki-zubki-mokrye-volosy-boke.jpg" alt=""></li> 
-
-      <li><img src="images/bg/photo-1418226970361-9f1f7227d638.jpg" alt=""></li>       
-     <li><img src="images/bg/198888305-1200x680.jpg" alt=""></li>
- 
-      
-    </ul>
-</div>
-<div class="caption-1">
-
- <div class="caption-header">
-  <!-- cd-intro -->
-   <section class="cd-intro">
-   <h1 class="cd-headline letters rotate-3">
-       <span>Life's -  </span>
-    <span class="cd-words-wrapper">
-        <b class="is-visible">an</b>
-                    <b>&ensp;is</b>
-			    
-			</span>
-        <span><font color="#E4F1FE">&ensp;tra</font>vel</span>
-       </h1>
-               <h4>ENJOY THE SOLITUDE & SOLACE OF</h4>
-       <h2>★★★</h2> 
-        </section>
-        </div> 
+                   <!--------------------- pack 1------------------------------>
+                   
+                   <section id="animate-pic">         
+                    <div class="in-loop">      
+                      <div class="device-pic">
+                       <div class="pic">
+                           <img src="images/pack1/1.jpg" class="zoom" width="350" height="245" >
+                       </div> 
+                       <div class="pic">
+                           <img src="images/pack1/2.jpg" class="zoom" width="350" height="245" >
+                       </div>
+                       <div class="pic">
+                           <img src="images/pack1/3.jpg" class="zoom" width="350" height="245" >
+                       </div>
+                        <div class="pic">
+                           <img src="images/pack1/4.jpg" class="zoom" width="350" height="245" >
+                       </div> 
+                       <div class="pic">
+                           <img src="images/pack1/5.jpg" class="zoom" width="350" height="245" >
+                       </div>
+                       <div class="pic">
+                           <img src="images/pack1/6.jpg" class="zoom" width="350" height="245" >
+                       </div>
+                      </div>
+                     </div> 
+                    </section>
+                   
+                <!--------------------- pack 2------------------------------>
+                
+                
+                <!--------------------- pack 3------------------------------>
+                      
+                      
         
- <a href="#section2" class="cd-scroll-down"><div class="scroll-icon">‹</div></a>  
+        </div> <!----content end---->        
+        </div> <!----container end---->	  
+		
+		
+  	
+<!---------------- end ----------------->      
+                                   
+            
+        <!--Animate script-->	  	
+		<script>
 
-      </div>
+		$(window).scroll(function() {
 
-</div>
+			$('#animate-title-content').each(function(){
+			var imagePos = $(this).offset().top;
+			
+			var topOfWindow = $(window).scrollTop();
+				if (imagePos < topOfWindow+400) {
+					$('.device-arrow').addClass("fadeIn");
+				}
+			});
+            
+            $('#animate-pic').each(function(){
+			var imagePos = $(this).offset().top;
+			
+			var topOfWindow = $(window).scrollTop();
+				if (imagePos < topOfWindow+600) {
+					$('.device-pic').addClass("fadeIn");
+				}
+                
+			});
+            
+            $('#animate-pic2-title').each(function(){
+			var imagePos = $(this).offset().top;
+			
+			var topOfWindow = $(window).scrollTop();
+				if (imagePos < topOfWindow+500) {
+					$('.device-pic2-title').addClass("slideUp");
+				}
+                
+			});	
+            
+            $('#animate-pic2').each(function(){
+			var imagePos = $(this).offset().top;
+			
+			var topOfWindow = $(window).scrollTop();
+				if (imagePos < topOfWindow+630) {
+					$('.device-pic2').addClass("slideUp");
+				}
+                
+			});	
+								
 
+		});
 
-
-
-<section id="section2" class="cd-section">
-<div class="content">
-
-<div class="sl">
-    <h1>×</h1><h3>∇IEW THE COLLECTION
-
-</h3>
-</div>
-
-
-
-</div>
-</section>
-
-
-
-    <div id="sl-footer">
+        </script>
+        
     
-    
-
-      <!--<div class="spoiler-head folded"><div class="spoiler-button"> <h2>Open <br> photo </h2></div></div>-->
-      
-      
-<div class="loop"><div class="in-loop">
-    <div class="pic">
-      <img src="images/-OtgeuAT8IA.jpg" class="zoom" width="454" height="347">
-    </div>
-    
-     <div class="pic">
-      <img src="images/hkK7_pDx-_I.jpg" class="zoom" width="454" height="347">
-    </div>
-    <div class="pic">
-      <img src="images/wWS2ZmHyWBE.jpg" class="zoom" width="454" height="347">
-    </div>
-
-    <div class="pic">
-      <img src="images/cBj2_Bp7-nw.jpg" class="zoom" width="454" height="347">
-    </div>
-
-    <div class="pic">
-      <img src="images/x3ac8pODY6w.jpg" class="zoom" width="454" height="347">
-    </div>    
-    
-     <div class="pic">
-      <img src="images/kV_GSKn7n1g.jpg" class="zoom" width="454" height="347">
-    </div>
-     
-  
-    
-    
-    
-    
-    
-    
-</div>  
-  </div>
-    
-
-
-   <div class="another-content">
-    
-   </div>
-   
-   <div id="contact">
-   <div class="contact-an">
-   <ul>
-       <li><p>contact: </p></li>
-       <li><h2>twitter: | </h2></li>
-       <li><h6><div class="animate-right">→ <a href="http://vk.com/sqlnikeee"> vk: |@sl.vima | 2015</a></div></h6></li>
-   </ul>
-   </div>
-   </div>
-    </div>
- 
-
-    
-   </div>
-
-
-
- 
-    
- 
-
-
- <!--Скрипт на зуум_img-->
- <script src="js/zoomerang.js"></script>
-        <script>
+		<!--Скрипт на зуум_img-->
+         <script src="js/zoomerang.js"></script>
+         <script>
             Array.prototype.forEach.call(document.querySelectorAll('p'), function (p, i) {
                 p.style.marginLeft = i * 6 + '%'
             })
             Zoomerang
                 .config({
-                    maxHeight: 1100,
-                    maxWidth: 800,
+                    maxHeight: 1280,
+                    maxWidth: 854,
                     bgColor: '#4d4d4d',
                     bgOpacity: .85,
                     onOpen: openCallback,
@@ -249,12 +167,8 @@ $(document).ready(function(){
                 console.log('zoomed out on: ')
                 console.log(el)
             }
-        </script>
- 
-<script src="js/classie2.js"></script>
-<script src="js/main.js"></script>
- <script src="js/main.2.js"></script>
-
-<script src="js/main-animated-word.js"></script>   
-</body>
+         </script>
+    
+                           
+	</body>
 </html>
