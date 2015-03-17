@@ -13,7 +13,7 @@ $form = array(
 	'heading' => 'Отправка новой формы',
 	'success_redirect' => '%d0%b1%d0%b5%d0%b7-%d0%b8%d0%bc%d0%b5%d0%bd%d0%b8-2.html',
 	'email' => array(
-		'from' => 'alexandrsiukaiev@gmail.com',
+		'from' => 'slvima.github.io',
 		'to' => 'alexandrsiukaiev@gmail.com'
 	),
 	'fields' => array(
