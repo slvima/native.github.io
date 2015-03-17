@@ -1,55 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://TestForm.com.ua/scripts/form_check.php</loc>
+    <loc>http://test.ua/scripts/form_check.php</loc>
     <lastmod>2015-03-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://TestForm.com.ua/scripts/form_throttle.php</loc>
+    <loc>http://test.ua/scripts/form_throttle.php</loc>
     <lastmod>2015-03-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://TestForm.com.ua/scripts/form_process.php</loc>
+    <loc>http://test.ua/scripts/form_process.php</loc>
     <lastmod>2015-03-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://TestForm.com.ua/scripts/form-u72.php</loc>
+    <loc>http://test.ua/scripts/form-u72.php</loc>
     <lastmod>2015-03-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://TestForm.com.ua/images/u83-17.png</loc>
+    <loc>http://test.ua/images/u84-17.png</loc>
     <lastmod>2015-03-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://TestForm.com.ua/images/u83-17-r.png</loc>
+    <loc>http://test.ua/images/u84-17-r.png</loc>
     <lastmod>2015-03-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://TestForm.com.ua/images/u83-17-m.png</loc>
+    <loc>http://test.ua/images/u84-17-m.png</loc>
     <lastmod>2015-03-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://TestForm.com.ua/images/u83-17-fs.png</loc>
+    <loc>http://test.ua/images/u84-17-fs.png</loc>
     <lastmod>2015-03-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://TestForm.com.ua/index.html</loc>
+    <loc>http://test.ua/index.html</loc>
+    <lastmod>2015-03-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://test.ua/%D0%B1%D0%B5%D0%B7-%D0%B8%D0%BC%D0%B5%D0%BD%D0%B8-2.html</loc>
     <lastmod>2015-03-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>

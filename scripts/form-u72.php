@@ -11,7 +11,7 @@ require_once('form_process.php');
 $form = array(
 	'subject' => 'Отправка Форма Домашняя',
 	'heading' => 'Отправка новой формы',
-	'success_redirect' => '',
+	'success_redirect' => '%d0%b1%d0%b5%d0%b7-%d0%b8%d0%bc%d0%b5%d0%bd%d0%b8-2.html',
 	'email' => array(
 		'from' => 'alexandrsiukaiev@gmail.com',
 		'to' => 'alexandrsiukaiev@gmail.com'
@@ -34,28 +34,19 @@ $form = array(
 				'format' => 'Поле \'Электронная почта\' содержит недействительное сообщение эл. почты.'
 			)
 		),
-		'custom_U105' => array(
-			'type' => 'string',
-			'label' => 'Город',
-			'required' => true,
-			'errors' => array(
-				'required' => 'Поле \'Город\' не может быть пустым.'
-			)
-		),
-		'custom_U89' => array(
+		'custom_U79' => array(
 			'type' => 'string',
 			'label' => 'Сообщение',
-			'required' => true,
+			'required' => false,
 			'errors' => array(
-				'required' => 'Поле \'Сообщение\' не может быть пустым.'
 			)
 		),
-		'custom_U115' => array(
+		'custom_U98' => array(
 			'type' => 'string',
-			'label' => 'Мобильный телефон',
+			'label' => 'Сотовый телефон',
 			'required' => true,
 			'errors' => array(
-				'required' => 'Поле \'Мобильный телефон\' не может быть пустым.'
+				'required' => 'Поле \'Сотовый телефон\' не может быть пустым.'
 			)
 		)
 	)
