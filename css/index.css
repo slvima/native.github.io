@@ -22,11 +22,7 @@ body {
   transition: 0.1s;
 }
 
-.header button:hover {
-  border-color: #818181;
-  background-color: rgba(222, 222, 222, 0);
-  color: #818181;
-}
+
 
 .post-header-title-container button {
   position: absolute;
