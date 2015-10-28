@@ -8,13 +8,33 @@
   <link rel="stylesheet" href="css/standardize.css">
   <link rel="stylesheet" href="css/index-grid.css">
   <link rel="stylesheet" href="css/index.css">
-  <link rel="stylesheet" href="css/animations.css">
-
+ <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <style type="text/css">
+#page-preloader {
+position: fixed;
+left: 0;
+top: 0;
+right: 0;
+bottom: 0;
+background: #000;
+z-index: 100500;
+}
+#page-preloader .spinner {
+width: 100%;
+height: 600px;
+position: absolute;
+left: 0%;
+top: 0%;
+right: 0;
+background: url('/images/load-gif.gif') no-repeat ;
+background-position: center center;
+}
+</style>
 </head>
-<body class="body">
+<body class="body page-index clearfix">
+<!-- preloading -->
 <div id="page-preloader"><span class="spinner"></span></div>
-
- <div id="page-preloader"><span class="spinner"></span></div>
+ <div class="container-main">
   <div class="header clearfix">
     <ul class="navigation clearfix">
       <li class="nav-link1">Home</li>
@@ -59,7 +79,7 @@
     </div>
     <div class="down-arrow-ico"></div>
   </div>
-  <div class="content-section-container clearfix">
+ <div class="content-section-container clearfix">
     <div class="content-headline-wrap">
       <div class="headline-wrap-position clearfix">
         <span class="content-headline">innovator chanel</span>
@@ -68,155 +88,168 @@
     </div>
     <div class="preview-video-container clearfix">
       <div class="video-wrap video-wrap-1 clearfix">
-        <div class="social-static-wrap">
+        <div class="social-static-wrap social-static-wrap-1">
           <div class="views-static views-static-1 clearfix">
-            <p class="numbers-static">121</p>
+            <p class="numbers-static numbers-static-1">121</p>
           </div>
           <div class="likes-wrap likes-wrap-1 clearfix">
             <p class="likes-static">59</p>
           </div>
         </div>
         <button class="play-vid"></button>
-        <div class="title-wrap clearfix">
-          <p class="headline-vid">'Shogyo Mujo' - Emergin... </p>
+        <div class="title-wrap title-wrap-1 clearfix">
+          <p class="headline-vid headline-vid-1">'Shogyo Mujo' - Emergin... </p>
           <div class="line-vid"></div>
-          <p class="description">'Shogyo Mujo' is a traveling art installation 
+          <p class="description description-1">'Shogyo Mujo' is a traveling art installation 
 that was developed by BARTKRESA design...</p>
         </div>
       </div>
       <div class="video-wrap video-wrap-2 clearfix">
-        <div class="social-static-wrap">
+        <div class="social-static-wrap social-static-wrap-2">
           <div class="views-static views-static-2 clearfix">
-            <p class="numbers-static">121</p>
+            <p class="numbers-static numbers-static-2">121</p>
           </div>
           <div class="likes-wrap likes-wrap-2 clearfix">
             <p class="likes-static">59</p>
           </div>
         </div>
         <button class="play-vid"></button>
-        <div class="title-wrap clearfix">
-          <p class="headline-vid">'Shogyo Mujo' - Emergin... </p>
+        <div class="title-wrap title-wrap-2 clearfix">
+          <p class="headline-vid headline-vid-2">'Shogyo Mujo' - Emergin... </p>
           <div class="line-vid"></div>
-          <p class="description">'Shogyo Mujo' is a traveling art installation 
+          <p class="description description-2">'Shogyo Mujo' is a traveling art installation 
 that was developed by BARTKRESA design...</p>
         </div>
       </div>
       <div class="video-wrap video-wrap-3 clearfix">
-        <div class="social-static-wrap">
+        <div class="social-static-wrap social-static-wrap-3">
           <div class="views-static views-static-3 clearfix">
-            <p class="numbers-static">121</p>
+            <p class="numbers-static numbers-static-3">121</p>
           </div>
           <div class="likes-wrap likes-wrap-3 clearfix">
             <p class="likes-static">59</p>
           </div>
         </div>
         <button class="play-vid"></button>
-        <div class="title-wrap clearfix">
-          <p class="headline-vid">'Shogyo Mujo' - Emergin... </p>
+        <div class="title-wrap title-wrap-3 clearfix">
+          <p class="headline-vid headline-vid-3">'Shogyo Mujo' - Emergin... </p>
           <div class="line-vid"></div>
-          <p class="description">'Shogyo Mujo' is a traveling art installation 
+          <p class="description description-3">'Shogyo Mujo' is a traveling art installation 
 that was developed by BARTKRESA design...</p>
         </div>
       </div>
       <div class="video-wrap video-wrap-4 clearfix">
-        <div class="social-static-wrap">
+        <div class="social-static-wrap social-static-wrap-4">
           <div class="views-static views-static-4 clearfix">
-            <p class="numbers-static">121</p>
+            <p class="numbers-static numbers-static-4">121</p>
           </div>
           <div class="likes-wrap likes-wrap-4 clearfix">
             <p class="likes-static">59</p>
           </div>
         </div>
         <button class="play-vid"></button>
-        <div class="title-wrap clearfix">
-          <p class="headline-vid">'Shogyo Mujo' - Emergin... </p>
+        <div class="title-wrap title-wrap-4 clearfix">
+          <p class="headline-vid headline-vid-4">'Shogyo Mujo' - Emergin... </p>
           <div class="line-vid"></div>
-          <p class="description">'Shogyo Mujo' is a traveling art installation 
+          <p class="description description-4">'Shogyo Mujo' is a traveling art installation 
 that was developed by BARTKRESA design...</p>
         </div>
       </div>
       <div class="video-wrap video-wrap-5 clearfix">
-        <div class="social-static-wrap">
+        <div class="social-static-wrap social-static-wrap-5">
           <div class="views-static views-static-5 clearfix">
-            <p class="numbers-static">121</p>
+            <p class="numbers-static numbers-static-5">121</p>
           </div>
           <div class="likes-wrap likes-wrap-5 clearfix">
             <p class="likes-static">59</p>
           </div>
         </div>
         <button class="play-vid"></button>
-        <div class="title-wrap clearfix">
-          <p class="headline-vid">'Shogyo Mujo' - Emergin... </p>
+        <div class="title-wrap title-wrap-5 clearfix">
+          <p class="headline-vid headline-vid-5">'Shogyo Mujo' - Emergin... </p>
           <div class="line-vid"></div>
-          <p class="description">'Shogyo Mujo' is a traveling art installation 
+          <p class="description description-5">'Shogyo Mujo' is a traveling art installation 
 that was developed by BARTKRESA design...</p>
         </div>
       </div>
       <div class="video-wrap video-wrap-6 clearfix">
-        <div class="social-static-wrap">
+        <div class="social-static-wrap social-static-wrap-6">
           <div class="views-static views-static-6 clearfix">
-            <p class="numbers-static">121</p>
+            <p class="numbers-static numbers-static-6">121</p>
           </div>
           <div class="likes-wrap likes-wrap-6 clearfix">
             <p class="likes-static">59</p>
           </div>
         </div>
         <button class="play-vid"></button>
-        <div class="title-wrap clearfix">
-          <p class="headline-vid">'Shogyo Mujo' - Emergin... </p>
+        <div class="title-wrap title-wrap-6 clearfix">
+          <p class="headline-vid headline-vid-6">'Shogyo Mujo' - Emergin... </p>
           <div class="line-vid"></div>
-          <p class="description">'Shogyo Mujo' is a traveling art installation 
+          <p class="description description-6">'Shogyo Mujo' is a traveling art installation 
 that was developed by BARTKRESA design...</p>
         </div>
       </div>
       <div class="video-wrap video-wrap-7 clearfix">
-        <div class="social-static-wrap">
+        <div class="social-static-wrap social-static-wrap-7">
           <div class="views-static views-static-7 clearfix">
-            <p class="numbers-static">121</p>
+            <p class="numbers-static numbers-static-7">121</p>
           </div>
           <div class="likes-wrap likes-wrap-7 clearfix">
             <p class="likes-static">59</p>
           </div>
         </div>
         <button class="play-vid"></button>
-        <div class="title-wrap clearfix">
-          <p class="headline-vid">'Shogyo Mujo' - Emergin... </p>
+        <div class="title-wrap title-wrap-7 clearfix">
+          <p class="headline-vid headline-vid-7">'Shogyo Mujo' - Emergin... </p>
           <div class="line-vid"></div>
-          <p class="description">'Shogyo Mujo' is a traveling art installation 
+          <p class="description description-7">'Shogyo Mujo' is a traveling art installation 
 that was developed by BARTKRESA design...</p>
         </div>
       </div>
-      <div class="video-wrap video-wrap-8 clearfix">
-        <div class="social-static-wrap">
+      <div class="video-wrap video-wrap-8">
+        <div class="social-static-wrap social-static-wrap-8">
           <div class="views-static views-static-8 clearfix">
-            <p class="numbers-static">121</p>
+            <p class="numbers-static numbers-static-8">121</p>
           </div>
           <div class="likes-wrap likes-wrap-8 clearfix">
             <p class="likes-static">59</p>
           </div>
         </div>
-        <button class="play-vid"></button>
-        <div class="title-wrap clearfix">
-          <p class="headline-vid">'Shogyo Mujo' - Emergin... </p>
-          <div class="line-vid"></div>
-          <p class="description">'Shogyo Mujo' is a traveling art installation 
-that was developed by BARTKRESA design...</p>
+        <div class="title-wrap title-wrap-8 clearfix">
+          <p class="headline-vid headline-vid-8">'Shogyo Mujo'... </p>
+          <p class="description description-8">'Shogyo Mujo' is a traveling art installation 
+that was developed by...</p>
         </div>
+        <button class="play-vid"></button>
       </div>
-      <div class="video-wrap video-wrap-9 clearfix">
-        <div class="social-static-wrap">
+      <div class="video-wrap video-wrap-9">
+        <div class="social-static-wrap social-static-wrap-9">
           <div class="views-static views-static-9 clearfix">
-            <p class="numbers-static">121</p>
+            <p class="numbers-static numbers-static-9">121</p>
           </div>
           <div class="likes-wrap likes-wrap-9 clearfix">
             <p class="likes-static">59</p>
           </div>
         </div>
+        <div class="title-wrap title-wrap-9 clearfix">
+          <p class="headline-vid headline-vid-9">'Shogyo Mujo'... </p>
+          <p class="description description-9">'Shogyo Mujo' is a traveling art installation 
+that was developed by...</p>
+        </div>
         <button class="play-vid"></button>
-        <div class="title-wrap clearfix">
-          <p class="headline-vid">'Shogyo Mujo' - Emergin... </p>
-          <div class="line-vid"></div>
-          <p class="description">'Shogyo Mujo' is a traveling art installation 
+      </div>
+      <div class="video-wrap video-wrap-10 clearfix">
+        <div class="social-static-wrap social-static-wrap-10">
+          <div class="views-static views-static-10 clearfix">
+            <p class="numbers-static numbers-static-10">121</p>
+          </div>
+          <div class="likes-wrap likes-wrap-10 clearfix">
+            <p class="likes-static">59</p>
+          </div>
+        </div>
+        <div class="title-wrap title-wrap-10 clearfix">
+          <p class="headline-vid headline-vid-10">'Shogyo Mujo' - Emergin... </p>
+          <p class="description description-10">'Shogyo Mujo' is a traveling art installation 
 that was developed by BARTKRESA design...</p>
         </div>
       </div>
@@ -277,17 +310,37 @@ that was developed by BARTKRESA design...</p>
       </div>
     </div>
   </div>
-  
- 
-
-<script type="text/javascript">
+  <div class="footer-section">
+    <div class="footer-element-container clearfix">
+      <ul class="footer-navigation-link clearfix">
+        <li class="footer-link-1">Home</li>
+        <div class="vertical-line-footer vertical-line-footer-1"></div>
+        <li class="footer-link-2">webcasts</li>
+        <div class="vertical-line-footer vertical-line-footer-2"></div>
+        <li class="footer-link-3">Partnerships</li>
+        <div class="vertical-line-footer vertical-line-footer-3"></div>
+        <li class="footer-link-4">About</li>
+        <div class="vertical-line-footer vertical-line-footer-4"></div>
+        <li class="footer-link-5">Terms of Use - Privacy Policy</li>
+      </ul>
+      <p class="all_rights_reserved-text">© 2015 Innovator.tv™ &nbsp; &nbsp;&nbsp;All rights reserved.</p>
+      <div class="social-links-container clearfix">
+        <div class="facebook-ico-link"></div>
+        <div class="twitter-ico-link"></div>
+        <div class="google_plus-ico-link"></div>
+        <div class="youtube-ico-link"></div>
+      </div>
+      <div class="logo-container-footer"></div>
+    </div>
+  </div>
+  <!-- end content -->
+  <script>
 $(window).on('load', function () {
-    var $preloader = $('#page-preloader'),
-        $spinner   = $preloader.find('.spinner');
-    $spinner.fadeOut();
-    $preloader.delay(350).fadeOut('slow');
+var $preloader = $('#page-preloader'),
+$spinner = $preloader.find('.spinner');
+$spinner.fadeOut();
+$preloader.delay(650).fadeOut('slow');
 });
 </script>
-
 </body>
 </html>
