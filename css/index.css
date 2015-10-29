@@ -48,7 +48,7 @@ body {
 .header button {
   position: relative;
   float: right;
-  z-index: 201;
+  z-index: 202;
   width: 147px;
   height: 41px;
   margin: 17px 2.7487% 0 0;
@@ -76,7 +76,7 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
-  z-index: 206;
+  z-index: 207;
   width: 508px;
   height: 29px;
   margin: auto;
@@ -609,6 +609,20 @@ ul {
   background-position: center center;
 }
 
+.image-logo-container360-small {
+  visibility: hidden;
+  position: absolute;
+  top: 160px;
+  left: 34.4129554655%;
+  z-index: 198;
+  width: 324px;
+  height: 65px;
+  background: url('../images/2-layers.png') rgba(222, 222, 222, 0);
+  background-repeat: no-repeat;
+  background-size: 218px auto;
+  background-position: center center;
+}
+
 .likes-static {
   float: left;
   width: 40px;
@@ -728,7 +742,7 @@ ul {
   top: 25px;
   left: 0;
   right: 0;
-  z-index: 198;
+  z-index: 199;
   width: 988px;
   height: 422px;
   margin: 0 auto;
@@ -1566,7 +1580,7 @@ ul {
 
   .header button {
     position: relative;
-    z-index: 201;
+    z-index: 202;
     margin-right: 2.74829%;
   }
 
@@ -1691,22 +1705,26 @@ ul {
     left: 32%;
   }
 
+  .post-header-container-wrap .image-logo-container360-small {
+    top: 151px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
   .post-header-container-wrap .post-header-title-down-left {
     top: 245px;
     left: 1%;
-    width: 173px;
   }
 
   .post-header-container-wrap .post-header-title-top-left {
     top: -15px;
     left: 1%;
-    width: 175px;
-    height: 204px;
   }
 
   .post-header-container-wrap .post-header-title-top-right {
     left: 61%;
-    width: 175px;
   }
 
   .post-header-container-wrap .title-arrow-image {
@@ -1724,7 +1742,6 @@ ul {
   }
 
   .post-header-container-wrap .title-arrow-image-640 {
-    visibility: visible;
     left: 15.2723304655%;
     width: 65.5743927125%;
   }
@@ -1735,11 +1752,6 @@ ul {
     left: 70px;
     width: 626px;
     height: 126px;
-  }
-
-  .post-header-section-container {
-    height: 950px;
-    min-height: 950px;
   }
 
   .post-header-section-container .down-arrow-ico {
@@ -1756,52 +1768,6 @@ ul {
     margin-left: auto;
   }
 
-  .post-header-title-down-left .post-header-headline-text {
-    width: 156px;
-    margin-left: 16.0133699999%;
-    font-size: 1.6em;
-  }
-
-  .post-header-title-down-left .post-header-text {
-    width: 172px;
-    margin-left: 2.47471%;
-  }
-
-  .post-header-title-down-left .post-header-title-line {
-    margin-left: 40.2547%;
-  }
-
-  .post-header-title-top-left .post-header-headline-text {
-    width: 174px;
-    margin-left: 16.3392899999%;
-    font-size: 1.6em;
-  }
-
-  .post-header-title-top-left .post-header-text {
-    width: 172px;
-    margin-left: 2.90179%;
-  }
-
-  .post-header-title-top-left .post-header-title-line {
-    margin-left: 40.58036%;
-  }
-
-  .post-header-title-top-right .post-header-headline-text {
-    float: right;
-    margin-left: 0;
-    font-size: 1.6em;
-  }
-
-  .post-header-title-top-right .post-header-text {
-    float: right;
-    margin-left: 0;
-  }
-
-  .post-header-title-top-right .post-header-title-line {
-    float: right;
-    margin-left: 0;
-  }
-
   .review-wrap .identification-wrap {
     top: 0;
     bottom: 0;
@@ -1814,16 +1780,16 @@ ul {
   }
 
   .reviews-section-container .review-line {
-    top: 435px;
     left: 0;
     right: 0;
-    width: 91px;
+    width: 83.8356164383%;
     margin-right: auto;
     margin-left: auto;
   }
 
   .reviews-section-container .reviews-container {
-    height: 302px;
+    position: relative;
+    z-index: 53;
   }
 
   .reviews-section-container .sign-up-in-container {
@@ -1892,31 +1858,19 @@ ul {
   }
 
   .post-header-title-top-right .post-header-headline-text-2 {
-    width: 177px;
-    margin-right: 21.5625%;
-  }
-
-  .post-header-title-top-right .post-header-headline-text-4 {
-    width: 170px;
-    margin-right: 31.77679%;
+    float: right;
+    margin-right: 21.56909%;
+    margin-left: 0;
   }
 
   .post-header-title-top-right .post-header-text-2 {
     width: 265px;
-    margin-right: -54.95536%;
-  }
-
-  .post-header-title-top-right .post-header-text-4 {
-    width: 173px;
-    margin-right: 44.33929%;
   }
 
   .post-header-title-top-right .post-header-title-line-2 {
-    margin-right: 45.20536%;
-  }
-
-  .post-header-title-top-right .post-header-title-line-4 {
-    margin-right: 33.07143%;
+    float: right;
+    margin-right: 45.21367%;
+    margin-left: 0;
   }
 
   .preview-video-container .video-wrap-1 {
@@ -2029,7 +1983,7 @@ ul {
 
   .header button {
     position: relative;
-    z-index: 201;
+    z-index: 202;
     margin-right: 2.74565%;
   }
 
@@ -2092,10 +2046,10 @@ ul {
     margin-top: 55px;
   }
 
-  .content-section-container .see_more-link-ico-container {
+  .content-section-container .see_more-link-ico-container,
+  .post-header-container-wrap .title-arrow-image {
     left: 0;
     right: 0;
-    width: 117%;
     margin-right: auto;
     margin-left: auto;
   }
@@ -2154,6 +2108,14 @@ ul {
     left: 222px;
   }
 
+  .post-header-container-wrap .image-logo-container360-small {
+    top: 160px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
   .post-header-container-wrap .post-header-title-down-left {
     top: 280px;
     left: 0;
@@ -2192,8 +2154,6 @@ ul {
     top: 25px;
     left: 0;
     right: 0;
-    width: 502px;
-    height: 750px;
     margin-right: auto;
     margin-left: auto;
   }
@@ -2223,7 +2183,8 @@ ul {
   }
 
   .post-header-title-top-right .post-header-text {
-    margin-right: 0;
+    float: right;
+    margin-left: 0;
   }
 
   .post-header-title-top-right .post-header-title-line {
@@ -2242,8 +2203,8 @@ ul {
     height: 240px;
   }
 
-  .post-header-container-wrap .title-arrow-image,
   .reviews-section-container .review-line {
+    top: 435px;
     left: 0;
     right: 0;
     margin-right: auto;
@@ -2251,9 +2212,10 @@ ul {
   }
 
   .reviews-section-container .reviews-container {
-    position: static;
+    position: relative;
     float: left;
     clear: both;
+    z-index: 53;
     width: 100%;
     margin-right: 0;
     margin-left: 0;
@@ -2262,7 +2224,7 @@ ul {
   .reviews-section-container .sign-up-in-container {
     position: relative;
     z-index: 31;
-    margin-top: 0;
+    margin-top: 180px;
   }
 
   .reviews-section-container .title-container {
@@ -2273,7 +2235,7 @@ ul {
 
   .see_more-link-ico-container .see_more-link {
     width: 158.0961459893%;
-    margin-left: 11.64855%;
+    margin-left: 11.64869%;
   }
 
   .social-logo-container-wrap .logo-container-footer {
@@ -2329,11 +2291,14 @@ ul {
   }
 
   .post-header-title-top-right .post-header-headline-text-4 {
+    float: right;
     margin-right: 43px;
+    margin-left: 0;
   }
 
-  .post-header-title-top-right .post-header-text-2 {
-    width: 170px;
+  .post-header-title-top-right .post-header-title-line-4 {
+    float: right;
+    margin-left: 0;
   }
 
   .preview-video-container .video-wrap-1 {
@@ -2427,7 +2392,7 @@ ul {
 
   .header button {
     position: relative;
-    z-index: 201;
+    z-index: 202;
     margin-right: 2.742%;
   }
 
@@ -2450,16 +2415,9 @@ ul {
     margin: auto;
   }
 
-  .post-header-container-wrap button {
-    top: 620px;
-    left: 0;
-    right: 0;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .post-header-container-wrap .title-arrow-image,
+  .post-header-container-wrap .image-logo-container360-small,
   .post-header-container-wrap .title-arrow-image-320,
+  .post-header-container-wrap button,
   .post-header-section-container .post-header-container-wrap,
   .reviews-section-container .review-line,
   .sign-up-in-container button,
@@ -2540,23 +2498,12 @@ ul {
     margin-left: 25px;
   }
 
-  .post-header-container-wrap .image-logo-container {
-    top: 270px;
-    left: 110px;
-  }
-
-  .post-header-container-wrap .post-header-title-down-left,
-  .post-header-container-wrap .post-header-title-top-right-2 {
-    top: 390px;
-  }
-
-  .post-header-container-wrap .post-header-title-top-left,
-  .post-header-container-wrap .post-header-title-top-right-1 {
-    top: 35px;
-  }
-
-  .post-header-container-wrap .post-header-title-top-right {
-    left: 325px;
+  .post-header-container-wrap .title-arrow-image {
+    left: 0;
+    right: 0;
+    width: 93.8337801608%;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .post-header-container-wrap .title-arrow-image-640 {
@@ -2569,6 +2516,11 @@ ul {
     bottom: 0;
     margin-top: auto;
     margin-bottom: auto;
+  }
+
+  .reviews-section-container .reviews-container {
+    position: relative;
+    z-index: 53;
   }
 
   .reviews-section-container .sign-up-in-container {
@@ -2737,7 +2689,7 @@ ul {
 
   .header button {
     position: relative;
-    z-index: 201;
+    z-index: 202;
     margin-right: 2.73438%;
   }
 
@@ -2750,8 +2702,15 @@ ul {
     margin: auto;
   }
 
+  .post-header-container-wrap button {
+    top: 620px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
   .content-section-container .see_more-link-ico-container,
-  .post-header-container-wrap button,
   .reviews-section-container .review-line,
   .see_more-link-ico-container .see_more-link,
   .sign-up-in-container button,
@@ -2824,9 +2783,35 @@ ul {
     z-index: 15;
   }
 
+  .post-header-container-wrap .image-logo-container {
+    top: 270px;
+    left: 110px;
+  }
+
+  .post-header-container-wrap .image-logo-container360-small {
+    top: 125px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
   .post-header-container-wrap .post-header-title-down-left {
+    top: 390px;
     left: 2px;
+    width: 173px;
     height: 190px;
+  }
+
+  .post-header-container-wrap .post-header-title-top-left {
+    top: 35px;
+    width: 175px;
+    height: 204px;
+  }
+
+  .post-header-container-wrap .post-header-title-top-right {
+    left: 325px;
+    width: 175px;
   }
 
   .post-header-container-wrap .title-arrow-image {
@@ -2846,6 +2831,7 @@ ul {
   }
 
   .post-header-container-wrap .title-arrow-image-640 {
+    visibility: visible;
     top: 220px;
     left: 17.8044280442%;
     width: 327px;
@@ -2860,21 +2846,31 @@ ul {
     margin-left: auto;
   }
 
+  .post-header-section-container {
+    height: 950px;
+    min-height: 950px;
+  }
+
   .post-header-section-container .post-header-container-wrap {
     top: 60px;
     left: 0;
     right: 0;
+    width: 502px;
+    height: 750px;
     margin-right: auto;
     margin-left: auto;
   }
 
   .post-header-title-down-left .post-header-headline-text {
+    width: 156px;
     margin-top: 22px;
     margin-left: 8px;
+    font-size: 1.6em;
     font-weight: 300;
   }
 
   .post-header-title-down-left .post-header-text {
+    width: 172px;
     margin-top: 13px;
     margin-left: 0;
   }
@@ -2887,9 +2883,15 @@ ul {
 
   .post-header-title-top-left .post-header-headline-text {
     float: none;
+    width: 174px;
     margin-right: auto;
     margin-left: auto;
+    font-size: 1.6em;
     font-weight: 300;
+  }
+
+  .post-header-title-top-left .post-header-text {
+    width: 172px;
   }
 
   .post-header-title-top-left .post-header-title-line {
@@ -2901,6 +2903,7 @@ ul {
   }
 
   .post-header-title-top-right .post-header-headline-text {
+    font-size: 1.6em;
     font-weight: 300;
   }
 
@@ -2913,6 +2916,11 @@ ul {
     bottom: 0;
     margin-top: auto;
     margin-bottom: auto;
+  }
+
+  .reviews-section-container .reviews-container {
+    position: relative;
+    z-index: 53;
   }
 
   .reviews-section-container .sign-up-in-container {
@@ -2937,25 +2945,34 @@ ul {
   }
 
   .post-header-container-wrap .post-header-title-top-right-1 {
+    top: 35px;
     height: 204px;
   }
 
   .post-header-container-wrap .post-header-title-top-right-2 {
+    top: 390px;
     height: 189px;
   }
 
   .post-header-title-top-right .post-header-headline-text-2 {
     float: none;
+    width: 177px;
     margin-right: auto;
     margin-left: auto;
   }
 
   .post-header-title-top-right .post-header-headline-text-4 {
+    width: 170px;
     margin-top: 16px;
     margin-right: 0;
   }
 
+  .post-header-title-top-right .post-header-text-2 {
+    width: 170px;
+  }
+
   .post-header-title-top-right .post-header-text-4 {
+    width: 173px;
     margin-top: 14px;
   }
 
@@ -3049,9 +3066,7 @@ ul {
 
 @media(max-width: 610px) {
   .btn-container button {
-    top: 3px;
-    left: auto;
-    right: 62px;
+    left: 72.8053977272%;
   }
 
   .container-links ul {
@@ -3060,13 +3075,9 @@ ul {
   }
 
   .header button {
-    position: absolute;
-    float: none;
-    left: 0;
-    right: 0;
-    margin-top: 0;
-    margin-right: auto;
-    margin-left: auto;
+    position: relative;
+    z-index: 202;
+    margin-right: 2.73566%;
   }
 
   .header ul,
@@ -3086,14 +3097,10 @@ ul {
     margin: auto;
   }
 
-  .post-header-container-wrap button {
-    top: 500px;
-    left: 0;
-    right: 0;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
+  .post-header-container-wrap .image-logo-container360-small,
+  .post-header-container-wrap .title-arrow-image-320,
+  .post-header-container-wrap button,
+  .post-header-section-container .post-header-container-wrap,
   .preview-video-container .video-wrap-10,
   .sign-up-in-container button {
     left: 0;
@@ -3110,30 +3117,18 @@ ul {
   }
 
   div input {
-    position: absolute;
-    float: none;
-    top: 2px;
-    left: 0;
-    right: 0;
-    width: 311px;
-    margin-top: 0;
-    margin-right: auto;
-    margin-left: auto;
+    position: relative;
+    z-index: 22;
+    width: 440px;
   }
 
   div span {
     position: relative;
     z-index: 171;
-    width: 199px;
-    margin-left: 0.36501%;
   }
 
   .container-wrap .review-wrap {
     position: relative;
-  }
-
-  .content-headline-wrap .headline-wrap-position {
-    width: 244px;
   }
 
   .content-section-container {
@@ -3148,10 +3143,9 @@ ul {
     top: 1750px;
     left: 0;
     right: 0;
-    width: 124px;
+    width: 118px;
     margin-right: auto;
     margin-left: auto;
-    background-size: 16px auto;
   }
 
   .footer-element-container .container-links {
@@ -3200,38 +3194,8 @@ ul {
   }
 
   .footer-section .footer-element-container {
-    width: 300px;
+    width: 440px;
     height: 238px;
-  }
-
-  .headline-wrap-position .youtube-ico-link {
-    right: 18px;
-  }
-
-  .post-header-container-wrap .image-logo-container {
-    top: 195px;
-    left: 0;
-    right: 0;
-    margin-right: auto;
-    margin-left: auto;
-    background-size: 218px auto;
-  }
-
-  .post-header-container-wrap .post-header-title-down-left {
-    top: 260px;
-    width: 143px;
-  }
-
-  .post-header-container-wrap .post-header-title-top-left {
-    top: 0;
-    left: 1px;
-    width: 143px;
-  }
-
-  .post-header-container-wrap .post-header-title-top-right {
-    left: auto;
-    right: 0;
-    width: 143px;
   }
 
   .post-header-container-wrap .title-arrow-image,
@@ -3241,95 +3205,6 @@ ul {
     width: 200px;
     margin-right: auto;
     margin-left: auto;
-  }
-
-  .post-header-container-wrap .title-arrow-image-320 {
-    visibility: visible;
-    top: 150px;
-    left: 0;
-    right: 0;
-    height: 141px;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .post-header-container-wrap .title-arrow-image-640 {
-    visibility: hidden;
-    left: 0;
-    right: 0;
-    width: 200px;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .post-header-section-container {
-    height: 700px;
-    min-height: 700px;
-  }
-
-  .post-header-section-container .down-arrow-ico {
-    visibility: hidden;
-  }
-
-  .post-header-section-container .post-header-container-wrap {
-    left: 0;
-    right: 0;
-    width: 300px;
-    height: 600px;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .post-header-title-down-left .post-header-headline-text {
-    float: none;
-    width: 140px;
-    margin-right: auto;
-    margin-left: auto;
-    font-size: 1.4em;
-  }
-
-  .post-header-title-down-left .post-header-text {
-    float: none;
-    clear: none;
-    width: 132px;
-    margin-right: auto;
-    margin-left: auto;
-    font-size: 1.2em;
-  }
-
-  .post-header-title-down-left .post-header-title-line,
-  .post-header-title-top-right .post-header-title-line-4 {
-    float: none;
-    clear: none;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .post-header-title-top-left .post-header-headline-text {
-    width: 140px;
-    margin-top: 40px;
-    font-size: 1.4em;
-  }
-
-  .post-header-title-top-left .post-header-text {
-    float: none;
-    clear: none;
-    width: 138px;
-    margin-right: auto;
-    margin-left: auto;
-    font-size: 1.2em;
-  }
-
-  .post-header-title-top-right .post-header-headline-text {
-    font-size: 1.4em;
-  }
-
-  .post-header-title-top-right .post-header-text {
-    float: none;
-    clear: none;
-    margin-right: auto;
-    margin-left: auto;
-    font-size: 1.2em;
   }
 
   .review-wrap .identification-wrap {
@@ -3361,32 +3236,15 @@ ul {
   .reviews-section-container .sign-up-in-container {
     position: relative;
     z-index: 31;
+    margin-top: 0;
   }
 
   .see_more-link-ico-container .see_more-link {
-    top: 0;
     left: 0;
     right: 0;
-    width: 91px;
+    width: 113px;
     margin-right: auto;
     margin-left: auto;
-    font-size: 1.8em;
-    font-weight: 300;
-  }
-
-  .sign-up-in-container .idea-connection-succes-img {
-    float: left;
-    clear: both;
-    width: 280px;
-    margin-right: 0;
-    margin-left: 29.01639%;
-  }
-
-  .sign-up-in-container .title-2 {
-    float: left;
-    width: 250px;
-    margin-right: 0;
-    margin-left: 29.5082%;
   }
 
   .social-logo-container-wrap .logo-container-footer {
@@ -3401,16 +3259,9 @@ ul {
     margin-left: auto;
   }
 
+  .sign-up-in-container .idea-connection-succes-img,
   .subscribe-btn-container .btn-container {
     width: 440px;
-  }
-
-  .subscribe-btn-container .text-title {
-    float: none;
-    width: 70%;
-    margin-top: 26px;
-    margin-right: auto;
-    margin-left: auto;
   }
 
   .subscribe-section-container {
@@ -3424,10 +3275,6 @@ ul {
     right: 0;
     width: 440px;
     margin: auto;
-  }
-
-  .title-container .line-arrow-img {
-    width: 230px;
   }
 
   .container-wrap .review-wrap-1 {
@@ -3446,31 +3293,6 @@ ul {
   .container-wrap .review-wrap-4 {
     clear: both;
     z-index: 36;
-  }
-
-  .post-header-container-wrap .post-header-title-top-right-2 {
-    top: 260px;
-  }
-
-  .post-header-title-top-right .post-header-headline-text-2 {
-    width: 140px;
-    margin-top: 40px;
-  }
-
-  .post-header-title-top-right .post-header-headline-text-4 {
-    float: none;
-    width: 120px;
-    margin-top: 23px;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .post-header-title-top-right .post-header-text-2 {
-    width: 122px;
-  }
-
-  .post-header-title-top-right .post-header-text-4 {
-    width: 134px;
   }
 
   .preview-video-container .video-wrap-1 {
@@ -3549,13 +3371,6 @@ ul {
     margin-left: auto;
   }
 
-  .title-wrap .description-7,
-  .title-wrap .headline-vid-7,
-  .video-wrap .social-static-wrap-7,
-  .video-wrap .title-wrap-7 {
-    width: 100px;
-  }
-
   .video-wrap .play-vid-9 {
     top: 0;
     bottom: 0;
@@ -3594,6 +3409,215 @@ ul {
     clear: none;
     z-index: 83;
     margin-top: 56px;
+  }
+
+  .video-wrap .title-wrap-9 {
+    position: relative;
+    z-index: 72;
+  }
+}
+
+@media(max-width: 552px) {
+  body {
+    font-size: 0.625em;
+  }
+
+  .header button {
+    position: relative;
+    z-index: 202;
+    margin-right: 2.73438%;
+  }
+
+  .header ul,
+  .identification-wrap .avatar-img,
+  .subscribe-section-container .subscribe-btn-container,
+  .video-wrap .play-vid-8,
+  .video-wrap-1 button,
+  .video-wrap-2 button,
+  .video-wrap-3 button,
+  .video-wrap-4 button,
+  .video-wrap-5 button,
+  .video-wrap-6 button,
+  .video-wrap-7 button {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+
+  .content-section-container .see_more-link-ico-container,
+  .footer-element-container .container-links,
+  .footer-element-container .social-logo-container-wrap,
+  .post-header-container-wrap .title-arrow-image,
+  .post-header-container-wrap .title-arrow-image-960,
+  .post-header-container-wrap button,
+  .post-header-section-container .post-header-container-wrap,
+  .preview-video-container .video-wrap-10,
+  .preview-video-container .video-wrap-7,
+  .preview-video-container .video-wrap-8,
+  .preview-video-container .video-wrap-9,
+  .reviews-section-container .review-line,
+  .see_more-link-ico-container .see_more-link,
+  .sign-up-in-container button,
+  .social-logo-container-wrap .social-links-container {
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .video-wrap-9 button {
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  div input {
+    position: relative;
+    z-index: 22;
+  }
+
+  div span {
+    position: relative;
+    z-index: 171;
+  }
+
+  .container-wrap .review-wrap {
+    position: relative;
+  }
+
+  .footer-navigation-link .footer-link-1 {
+    position: relative;
+    z-index: 12;
+  }
+
+  .footer-navigation-link .footer-link-2 {
+    position: relative;
+    z-index: 13;
+  }
+
+  .footer-navigation-link .footer-link-3 {
+    position: relative;
+    z-index: 14;
+  }
+
+  .footer-navigation-link .footer-link-4 {
+    position: relative;
+    z-index: 15;
+  }
+
+  .post-header-container-wrap .image-logo-container {
+    visibility: hidden;
+  }
+
+  .post-header-container-wrap .image-logo-container360-small {
+    visibility: visible;
+    top: 275px;
+    left: 140px;
+    right: auto;
+    width: 250px;
+  }
+
+  .post-header-container-wrap .title-arrow-image-320 {
+    visibility: visible;
+    top: 220px;
+    left: 0;
+    right: 0;
+    height: 166px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .review-wrap .identification-wrap {
+    top: 0;
+    bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .reviews-section-container .reviews-container {
+    position: relative;
+    z-index: 53;
+  }
+
+  .reviews-section-container .sign-up-in-container {
+    position: relative;
+    z-index: 31;
+  }
+
+  .container-wrap .review-wrap-1 {
+    z-index: 51;
+  }
+
+  .container-wrap .review-wrap-2 {
+    z-index: 46;
+  }
+
+  .container-wrap .review-wrap-3 {
+    z-index: 41;
+  }
+
+  .container-wrap .review-wrap-4 {
+    z-index: 36;
+  }
+
+  .preview-video-container .video-wrap-1 {
+    position: relative;
+    z-index: 168;
+  }
+
+  .preview-video-container .video-wrap-2 {
+    position: relative;
+    z-index: 157;
+  }
+
+  .preview-video-container .video-wrap-3 {
+    position: relative;
+    z-index: 146;
+  }
+
+  .preview-video-container .video-wrap-4 {
+    position: relative;
+    z-index: 135;
+  }
+
+  .preview-video-container .video-wrap-5 {
+    position: relative;
+    z-index: 124;
+  }
+
+  .preview-video-container .video-wrap-6 {
+    position: relative;
+    z-index: 113;
+  }
+
+  .video-wrap .play-vid-9 {
+    top: 0;
+    bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .video-wrap .social-static-wrap-10 {
+    position: relative;
+    z-index: 67;
+  }
+
+  .video-wrap .social-static-wrap-9 {
+    position: relative;
+    z-index: 78;
+  }
+
+  .video-wrap .title-wrap-10 {
+    position: relative;
+    z-index: 62;
+  }
+
+  .video-wrap .title-wrap-8 {
+    position: relative;
+    z-index: 83;
   }
 
   .video-wrap .title-wrap-9 {
