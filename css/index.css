@@ -2945,20 +2945,8 @@ ul {
         height: 900px;
     }
 
-  .header button {
-    position: relative;
-    z-index: 201;
-    margin-right: 2.73566%;
-    border-color: #ffffff;
-    color: rgb(255, 255, 255);
-  }
-     .header button:hover {
-    position: relative;
-    z-index: 201;
-    margin-right: 2.73566%;
-    border-color: #ffffff;
-    color: rgb(255, 255, 255);
-  }
+
+
 
   .header ul,
   .identification-wrap .avatar-img,
@@ -3070,9 +3058,7 @@ ul {
     height: 238px;
   }
 
-  .header {
-    background-color: rgb(238, 133, 34);
-  }
+  
 
   .post-header-container-wrap .title-arrow-image,
   .post-header-container-wrap .title-arrow-image-960 {
