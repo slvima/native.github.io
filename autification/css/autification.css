@@ -1,3 +1,8 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font: 300 0.75em/1.38 Lato;
+  color: rgb(98, 98, 98);
+}
 
 .faceboobk-wrap button {
   z-index: 3;
@@ -32,7 +37,7 @@
   transition: 0.5s;
 }
 
-button  {
+button {
   display: block;
   position: absolute;
   top: 0;
@@ -67,16 +72,15 @@ button  {
 
 .close-wrap {
   position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  width: 100%;
+
+  right: 20px;
+  width: 20%;
   height: 45px;
-  margin: 0 auto;
+ 
   background: url('../images/cross-designed-by-balraj-chana-from-flaticoncom.png') rgba(222, 222, 222, 0);
   background-repeat: no-repeat;
   background-size: auto auto;
-  background-position: right center;
+  background-position: center center;
 }
 
 .container-wrap {
@@ -195,14 +199,14 @@ button  {
     position: relative;
     z-index: 4;
     width: 30px;
-    margin-left: 22%;
+    margin-left: 21.99777%;
   }
 
   .google-wrap .google-ico {
     position: relative;
     z-index: 7;
     width: 32px;
-    margin-left: 24%;
+    margin-left: 23.9955399999%;
   }
 
   .main-container .container-wrap {
