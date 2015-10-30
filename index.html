@@ -8,8 +8,31 @@
   <link rel="stylesheet" href="css/standardize.css">
   <link rel="stylesheet" href="css/index-grid.css">
   <link rel="stylesheet" href="css/index.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <style type="text/css">
+#page-preloader {
+position: fixed;
+left: 0;
+top: 0;
+right: 0;
+bottom: 0;
+background: #000;
+z-index: 100500;
+}
+#page-preloader .spinner {
+width: 100%;
+height: 600px;
+position: absolute;
+left: 0%;
+top: 0%;
+right: 0;
+background: url('/images/load-gif.gif') no-repeat ;
+background-position: center center;
+}
+</style>
 </head>
 <body class="body page-index clearfix">
+ <div id="page-preloader"><span class="spinner"></span></div>
   <div class="header clearfix">
     <ul class="navigation clearfix">
       <li class="nav-link1">Home</li>
@@ -326,5 +349,14 @@ that was developed by BARTKRESA design...</p>
       </div>
     </div>
   </div>
+    <!-- end content -->
+  <script>
+$(window).on('load', function () {
+var $preloader = $('#page-preloader'),
+$spinner = $preloader.find('.spinner');
+$spinner.fadeOut();
+$preloader.delay(650).fadeOut('slow');
+});
+</script>
 </body>
 </html>
