@@ -9,30 +9,9 @@
   <link rel="stylesheet" href="css/autification-grid.css">
   <link rel="stylesheet" href="css/autification.css">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-  <style type="text/css">
-#page-preloader {
-position: fixed;
-left: 0;
-top: 0;
-right: 0;
-bottom: 0;
-background: #000;
-z-index: 100500;
-}
-#page-preloader .spinner {
-width: 100%;
-height: 600px;
-position: absolute;
-left: 0%;
-top: 0%;
-right: 0;
-background: url('/images/load-gif.gif') no-repeat ;
-background-position: center center;
-}
-</style>
+
 </head>
 <body class="body page-setting clearfix">
-  <div id="page-preloader"><span class="spinner"></span></div>
   <div class="main-container">
     <div class="container-wrap clearfix">
       <a href="../index.html"><div class="close-wrap"></div></a>
@@ -55,13 +34,5 @@ background-position: center center;
   </div>
         <!-- end content -->
 
-  <script>
-$(window).on('load', function () {
-var $preloader = $('#page-preloader'),
-$spinner = $preloader.find('.spinner');
-$spinner.fadeOut();
-$preloader.delay(650).fadeOut('slow');
-});
-</script>
 </body>
 </html>
