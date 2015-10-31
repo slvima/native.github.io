@@ -2335,6 +2335,11 @@ ul {
   .container-links ul {
     width: 326px;
   }
+  
+    
+    .ip-container{
+        display: none;
+    }
 
   .header button {
     position: relative;
