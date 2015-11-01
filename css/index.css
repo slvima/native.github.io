@@ -3552,3 +3552,234 @@ ul {
        display: none;
     }
 }
+
+
+
+/* autification css*/
+
+.faceboobk-wrap button {
+  z-index: 3;
+  background-color: rgb(58, 87, 149);
+  text-indent: 20px;
+  color: rgb(255, 255, 255);
+}
+
+.faceboobk-wrap button:hover {
+  background-color: rgba(58, 87, 149, 0.89);
+}
+
+.google-wrap button {
+  z-index: 6;
+  border: 1px solid rgb(204, 204, 204);
+  background-color: rgb(67, 137, 251);
+  text-indent: 25px;
+  color: #ffffff;
+}
+
+.google-wrap button:hover {
+  background-color: rgba(67, 137, 251, 0.87);
+  -webkit-transform: transform: scale(1.1,1.1);
+  -moz-transform: transform: scale(1.1,1.1);
+  -o-transform: transform: scale(1.1,1.1);
+  -ms-transform: transform: scale(1.1,1.1);
+  transform: transform: scale(1.1,1.1);
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.main-container button {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 205px;
+  height: 46px;
+  margin: 0 auto;
+  border-radius: 50px;
+  font-size: 1.083em;
+  font-weight: 700;
+  line-height: 1.38;
+  text-align: center;
+}
+
+.alternative-sign {
+  position: absolute;
+  top: 320px;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  width: 300px;
+  min-height: 36px;
+  margin: 0 auto;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.38;
+  text-align: center;
+  text-decoration: underline;
+  color: rgb(98, 98, 98);
+}
+
+.close-wrap {
+  position: absolute;
+  right: 20px;
+  width: 20%;
+  height: 45px;
+ 
+  cursor: pointer;
+  background: url('../../images/cross-designed-by-balraj-chana-from-flaticoncom.png') rgba(222, 222, 222, 0);
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  background-position: center center;
+}
+
+.container-wrap-aut {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 11;
+  width: 346px;
+  height: 513px;
+  margin: auto;
+}
+
+.faceboobk-wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 5;
+  width: 300px;
+  height: 46px;
+  margin: 0 auto;
+}
+
+.facebook-ico {
+  position: relative;
+  float: left;
+  z-index: 4;
+  width: 9.8645833333%;
+  height: 26px;
+  margin: 9px 0 0 22.79688%;
+  background: url('../../images/facebook-logo-designed-by-freepik-from-flaticoncom.png') rgba(222, 222, 222, 0);
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  background-position: center center;
+}
+
+.google-ico {
+  position: relative;
+  float: left;
+  z-index: 7;
+  width: 10.53125%;
+  height: 24px;
+  margin: 11px 0 0 25%;
+  background: url('../../images/google-plus-logo-designed-by-freepik-from-flaticoncom.png') rgba(222, 222, 222, 0);
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  background-position: center center;
+}
+
+.google-wrap {
+  position: absolute;
+  top: 65px;
+  left: 0;
+  right: 0;
+  z-index: 8;
+  width: 300px;
+  height: 46px;
+  margin: 0 auto;
+}
+
+.main-container {
+  position: relative;
+  width: 100%;
+  height: 700px;
+  margin: 0 auto;
+  background-color: #fafafa;
+}
+
+.name-edit-container {
+  position: absolute;
+  top: 171px;
+  left: 0;
+  right: 0;
+  z-index: 9;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.setting-title {
+  width: 326px;
+  min-height: 36px;
+  margin: 2px auto 0;
+  font-size: 1.333em;
+  line-height: 1.38;
+  text-align: center;
+  color: rgb(98, 98, 98);
+}
+
+.title-wrap-aut {
+  width: 100%;
+  height: 36px;
+  margin: 105px auto 0;
+  background-color: rgba(222, 222, 222, 0);
+}
+
+
+  .container-wrap .close-wrap {
+    left: 0;
+    right: 0;
+    width: 89.2906970255%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .faceboobk-wrap .facebook-ico {
+    position: relative;
+    z-index: 4;
+    width: 30px;
+    margin-left: 21.99777%;
+  }
+
+  .google-wrap .google-ico {
+    position: relative;
+    z-index: 7;
+    width: 32px;
+    margin-left: 23.9955399999%;
+  }
+
+  .main-container .container-wrap {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 280px;
+    margin: auto;
+  }
+
+  .container-wrap .alternative-sign,
+  .container-wrap .name-edit-container,
+  .name-edit-container .faceboobk-wrap,
+  .name-edit-container .google-wrap {
+    left: 0;
+    right: 0;
+    width: 280px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .title-wrap .setting-title {
+    width: 190px;
+    min-height: 70px;
+    margin-top: -10px;
+  }
+}
+
+/* end autification css*/
