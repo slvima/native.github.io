@@ -11,45 +11,26 @@
   <link rel="stylesheet" href="css/autification.css">
   <link rel="stylesheet" href="css/autification-grid.css">
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-
-  <link rel="stylesheet" type="text/css" href="css/component.css" />
+  <link rel="stylesheet" type="text/css" href="css/pre-loading-effect.css" />
 <script src="js/modernizr.custom.js"></script>
-
+<script src="js/jquery-1.6.1.min.js"></script>
 </head>
 <body class="body page-index clearfix">
-<div class="md-modal md-effect-1" id="modal-1">
-			<div class="md-content">
-				
-				<div>
- <div class="main-container">
-    <div class="container-wrap-aut clearfix">
-     <div class="close-wrap md-close"></div>
-      <div class="title-wrap-aut clearfix">
-        <p class="setting-title">Sign in to Innovator TV or create an account</p>
-      </div>
-      <p class="alternative-sign">Sign in to Innovator TV or create an account</p>
-      <div class="name-edit-container">
-        <div class="google-wrap clearfix">
-          <button class="save">Sign in with Google
-</button>
-          <div class="google-ico"></div>
-        </div>
-        <div class="faceboobk-wrap clearfix">
-          <button class="save">Sign in with Facebook</button>
-          <div class="facebook-ico"></div>
-        </div>
-      </div>
-    </div>
-  </div>
-					
+<div id="ip-container" class="ip-container">
+ <!-- Pre loader -->
+ <header class="ip-header">
+				<div class="ip-loader">
+					<svg class="ip-inner" width="60px" height="60px" viewBox="0 0 80 80">
+						<path class="ip-loader-circlebg" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z"/>
+						<path id="ip-loader-circle" class="ip-loader-circle" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z"/>
+					</svg>
 				</div>
-			</div>
-			<!--<button class="md-close">Close me!</button>-->
-		</div>
-
-
-
-     	
+			</header>
+ <!-- End Pre loader -->
+        
+			<!-- main content -->
+<div class="ip-main">
+     <div class="browser clearfix">
   <div class="header clearfix">
     <ul class="navigation clearfix">
       <li class="nav-link1">Home</li>
@@ -62,7 +43,7 @@
   </div>
   <div class="post-header-section-container">
     <div class="container-margin-center">
-      <button class="md-trigger" data-modal="modal-1">Sign in / Sign up</button>
+      <a href="autification.html"><button>Sign in / Sign up</button></a>
        <div class="image-title-mobile"></div>
       <div class="post-header-container-wrap">
         <div class="title-arrow-image-640"></div>
@@ -365,23 +346,13 @@ that was developed by BARTKRESA design...</p>
       </div>
     </div>
   </div>
-
+     
+         </div>
+    </div>
       <!-- end content -->
-<div class="md-overlay"></div><!-- the overlay element -->
- 
-		
 
-		<!-- classie.js by @desandro: https://github.com/desandro/classie -->
-		<script src="js/classie.js"></script>
-		<script src="js/modalEffects.js"></script>
-
-		<!-- for the blur effect -->
-		<!-- by @derSchepp https://github.com/Schepp/CSS-Filters-Polyfill -->
-		<script>
-			// this is important for IEs
-			var polyfilter_scriptpath = '/js/';
-		</script>
-		<script src="js/cssParser.js"></script>
-		<script src="js/css-filters-polyfill.js"></script>
+   	<script src="js/classie.js"></script>
+		<script src="js/pathLoader.js"></script>
+		<script src="js/main.js"></script>
 </body>
 </html>
