@@ -2337,7 +2337,23 @@ ul {
   }
   
     
-  
+    .ip-header{
+        visibility: hidden;
+        z-index: 0;
+    }
+        .ip-inner{
+        display: none;
+        z-index: 0;
+    }
+    .ip-header .ip-loader svg path.ip-loader-circle {
+	display: none;
+    }
+    
+    .loaded .ip-logo svg path {
+	display: none;
+}
+ 
+
 
   .header button {
     position: relative;
