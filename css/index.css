@@ -1,15 +1,13 @@
 body {
-  background-color: #fafafa;
+  background-color: #fcfcfc;
   font: 400 0.625em/1.38 Lato;
   color: rgb(255, 255, 255);
-}
 
-@media(max-width: 550px) {
-.body{
-       overflow-x: hidden;
-    }
 }
-
+a {
+    text-decoration: none;
+    color: inherit;
+}
 .btn-container button {
   position: absolute;
   top: 2px;
@@ -360,12 +358,12 @@ span {
   min-height: 28px;
   margin: 27px 0 0 0.26185%;
   font-size: 1.6em;
-    font-weight: 400;
   line-height: 1.38;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 1px;
   color: rgb(255, 255, 255);
+    font-weight: 400;
 }
 
 ul {
@@ -565,7 +563,7 @@ ul {
   float: left;
   width: 100%;
   height: 75px;
-  background-color: rgba(245, 242, 89, 0);
+  background-color: rgb(250, 250, 250);
 }
 
 .headline-vid {
@@ -592,7 +590,7 @@ ul {
   z-index: 170;
   width: 41px;
   height: 72px;
-  background-image: url('../images/ico-yt.png');
+  background-image: url('../images/youtube-logo-designed-by-simpleicon-from-flaticoncom.png');
   background-color: rgba(222, 222, 222, 0);
 }
 
@@ -655,7 +653,7 @@ ul {
   clear: both;
   width: 99.9166666666%;
   height: 1px;
-  margin-top: 17px;
+  margin-top: 16px;
   background-color: #e4e4e4;
 }
 
@@ -754,11 +752,6 @@ ul {
   height: 422px;
   margin: 0 auto;
 }
-@media(max-width: 550px) {
-.post-header-container-wrap{
-        display: none;
-    }
-}
 
 .post-header-headline-text {
   float: left;
@@ -782,7 +775,7 @@ ul {
   width: 100%;
   height: 90vh;
   min-height: 580px;
-  background-color: rgba(222, 222, 222, 0);
+  background-color: rgb(250, 250, 250);
 }
 
 .post-header-text {
@@ -928,7 +921,6 @@ ul {
   min-height: 22px;
   margin: 1px auto 0;
   font-size: 1.6em;
-    font-weight: 400;
   line-height: 1.38;
   text-align: center;
   color: rgb(255, 255, 255);
@@ -973,7 +965,7 @@ ul {
   float: left;
   width: 30px;
   height: 86px;
-  background-image: url('../images/youtube-logo-designed-by-simpleicon-from-flaticoncom.png');
+  background-image: url('../images/google-plus-social-logotype-designed-by-freepik-from-flaticoncom.png');
   background-color: rgba(238, 175, 175, 0);
 }
 
@@ -1011,7 +1003,7 @@ ul {
   clear: both;
   width: 100%;
   height: 200px;
-  background-color: #efefef;
+  background-color: #f9f9f9;
 }
 
 .text-review {
@@ -1021,8 +1013,8 @@ ul {
   margin: 34px 0 0 33.75%;
   font-size: 1.1em;
   line-height: 1.58;
-    font-weight: 400;
   color: #676565;
+    font-weight: 400;
 }
 
 .text-title {
@@ -1041,7 +1033,6 @@ ul {
   min-height: 55px;
   margin: 68px auto 0;
   font-size: 1.3em;
-    font-weight: 400;
   line-height: 1.78;
   text-align: center;
   text-transform: uppercase;
@@ -1651,6 +1642,10 @@ ul {
     margin-left: auto;
   }
 
+  .container-wrap .review-wrap {
+    position: relative;
+  }
+
   .content-section-container .see_more-link-ico-container {
     left: 0;
     right: 0;
@@ -1681,10 +1676,14 @@ ul {
   }
 
   .footer-navigation-link .footer-link-2 {
+    position: relative;
+    z-index: 13;
     margin-left: 2.06608%;
   }
 
   .footer-navigation-link .footer-link-3 {
+    position: relative;
+    z-index: 14;
     margin-left: 4.56514%;
   }
 
@@ -1707,10 +1706,6 @@ ul {
   .footer-section .footer-element-container {
     width: 90%;
     height: 147px;
-  }
-
-  .header {
-    background-color: rgb(250, 250, 250);
   }
 
   .post-header-container-wrap .image-logo-container {
@@ -1780,6 +1775,16 @@ ul {
     margin-left: auto;
   }
 
+  .reviews-section-container .reviews-container {
+    position: relative;
+    z-index: 53;
+  }
+
+  .reviews-section-container .sign-up-in-container {
+    position: relative;
+    z-index: 31;
+  }
+
   .see_more-link-ico-container .see_more-link {
     float: left;
     width: 158.1124999999%;
@@ -1812,6 +1817,22 @@ ul {
     right: 0;
     width: 440px;
     margin: auto;
+  }
+
+  .container-wrap .review-wrap-1 {
+    z-index: 51;
+  }
+
+  .container-wrap .review-wrap-2 {
+    z-index: 46;
+  }
+
+  .container-wrap .review-wrap-3 {
+    z-index: 41;
+  }
+
+  .container-wrap .review-wrap-4 {
+    z-index: 36;
   }
 
   .footer-navigation-link .vertical-line-footer-1 {
@@ -1969,7 +1990,6 @@ ul {
     margin-right: auto;
     margin-left: auto;
     font-size: 1.2em;
-
   }
 
   .header button {
@@ -2029,6 +2049,10 @@ ul {
     margin-left: auto;
   }
 
+  .container-wrap .review-wrap {
+    position: relative;
+  }
+
   .content-section-container {
     margin-top: 55px;
   }
@@ -2062,10 +2086,14 @@ ul {
   }
 
   .footer-navigation-link .footer-link-2 {
+    position: relative;
+    z-index: 13;
     margin-left: 0;
   }
 
   .footer-navigation-link .footer-link-3 {
+    position: relative;
+    z-index: 14;
     margin-left: 4.56286%;
   }
 
@@ -2174,15 +2202,18 @@ ul {
   }
 
   .reviews-section-container .reviews-container {
-    position: static;
+    position: relative;
     float: left;
     clear: both;
+    z-index: 53;
     width: 100%;
     margin-right: 0;
     margin-left: 0;
   }
 
   .reviews-section-container .sign-up-in-container {
+    position: relative;
+    z-index: 31;
     margin-top: 180px;
   }
 
@@ -2211,8 +2242,21 @@ ul {
     margin-top: 120px;
   }
 
+  .container-wrap .review-wrap-1 {
+    z-index: 51;
+  }
+
+  .container-wrap .review-wrap-2 {
+    z-index: 46;
+  }
+
   .container-wrap .review-wrap-3 {
     clear: both;
+    z-index: 41;
+  }
+
+  .container-wrap .review-wrap-4 {
+    z-index: 36;
   }
 
   .footer-navigation-link .vertical-line-footer-1 {
@@ -2335,25 +2379,6 @@ ul {
   .container-links ul {
     width: 326px;
   }
-  
-    
-    .ip-header{
-        visibility: hidden;
-        z-index: 0;
-    }
-        .ip-inner{
-        display: none;
-        z-index: 0;
-    }
-    .ip-header .ip-loader svg path.ip-loader-circle {
-	display: none;
-    }
-    
-    .loaded .ip-logo svg path {
-	display: none;
-}
- 
-
 
   .header button {
     position: relative;
@@ -2414,6 +2439,10 @@ ul {
     margin-left: auto;
   }
 
+  .container-wrap .review-wrap {
+    position: relative;
+  }
+
   .content-section-container {
     height: 1100px;
     margin-top: 0;
@@ -2449,10 +2478,14 @@ ul {
   }
 
   .footer-navigation-link .footer-link-2 {
+    position: relative;
+    z-index: 13;
     margin-left: 10px;
   }
 
   .footer-navigation-link .footer-link-3 {
+    position: relative;
+    z-index: 14;
     margin-left: 18px;
   }
 
@@ -2476,8 +2509,8 @@ ul {
   }
 
   .post-header-section-container {
-    height: 580px;
-    min-height: 720px;
+    height: 900px;
+    min-height: 900px;
   }
 
   .post-header-section-container .container-margin-center,
@@ -2488,6 +2521,16 @@ ul {
     margin-bottom: auto;
   }
 
+  .reviews-section-container .reviews-container {
+    position: relative;
+    z-index: 53;
+  }
+
+  .reviews-section-container .sign-up-in-container {
+    position: relative;
+    z-index: 31;
+  }
+
   .see_more-link-ico-container .see_more-link {
     position: absolute;
     float: none;
@@ -2496,6 +2539,22 @@ ul {
     width: 85.7142857142%;
     margin-right: auto;
     margin-left: auto;
+  }
+
+  .container-wrap .review-wrap-1 {
+    z-index: 51;
+  }
+
+  .container-wrap .review-wrap-2 {
+    z-index: 46;
+  }
+
+  .container-wrap .review-wrap-3 {
+    z-index: 41;
+  }
+
+  .container-wrap .review-wrap-4 {
+    z-index: 36;
   }
 
   .footer-navigation-link .vertical-line-footer-1 {
@@ -2676,16 +2735,6 @@ ul {
     right: 0;
     margin: auto;
   }
-    .post-header-section-container{
-        height: 800px;
-    }
-         .container-margin-center button {
-    bottom: 100px;
-    left: 0;
-    right: 0;
-    margin-right: auto;
-    margin-left: auto;
-  }
 
   div input {
     position: relative;
@@ -2707,6 +2756,10 @@ ul {
     margin-left: auto;
   }
 
+  .container-wrap .review-wrap {
+    position: relative;
+  }
+
   .footer-element-container .container-links {
     position: relative;
     z-index: 18;
@@ -2720,6 +2773,16 @@ ul {
   .footer-navigation-link .footer-link-1 {
     position: relative;
     z-index: 12;
+  }
+
+  .footer-navigation-link .footer-link-2 {
+    position: relative;
+    z-index: 13;
+  }
+
+  .footer-navigation-link .footer-link-3 {
+    position: relative;
+    z-index: 14;
   }
 
   .footer-navigation-link .footer-link-4 {
@@ -2837,6 +2900,32 @@ ul {
     bottom: 0;
     margin-top: auto;
     margin-bottom: auto;
+  }
+
+  .reviews-section-container .reviews-container {
+    position: relative;
+    z-index: 53;
+  }
+
+  .reviews-section-container .sign-up-in-container {
+    position: relative;
+    z-index: 31;
+  }
+
+  .container-wrap .review-wrap-1 {
+    z-index: 51;
+  }
+
+  .container-wrap .review-wrap-2 {
+    z-index: 46;
+  }
+
+  .container-wrap .review-wrap-3 {
+    z-index: 41;
+  }
+
+  .container-wrap .review-wrap-4 {
+    z-index: 36;
   }
 
   .post-header-container-wrap .post-header-title-top-right-1 {
@@ -2964,12 +3053,14 @@ ul {
     width: 351px;
     margin-left: 0.13761%;
   }
-    .post-header-section-container{
-        height: 900px;
-    }
 
-
-
+  .header button {
+    position: relative;
+    z-index: 201;
+    margin-right: 2.73566%;
+    border-color: #ffffff;
+    color: rgb(255, 255, 255);
+  }
 
   .header ul,
   .identification-wrap .avatar-img,
@@ -2988,14 +3079,6 @@ ul {
     right: 0;
     margin: auto;
   }
-      .container-margin-center button {
-    bottom: 80px;
-    left: 0;
-    right: 0;
-    margin-right: auto;
-    margin-left: auto;
-  }
-   
 
   .container-margin-center .post-header-container-wrap,
   .container-margin-center button,
@@ -3023,6 +3106,10 @@ ul {
   div span {
     position: relative;
     z-index: 171;
+  }
+
+  .container-wrap .review-wrap {
+    position: relative;
   }
 
   .content-section-container {
@@ -3068,6 +3155,16 @@ ul {
     z-index: 12;
   }
 
+  .footer-navigation-link .footer-link-2 {
+    position: relative;
+    z-index: 13;
+  }
+
+  .footer-navigation-link .footer-link-3 {
+    position: relative;
+    z-index: 14;
+  }
+
   .footer-navigation-link .footer-link-4 {
     position: relative;
     z-index: 15;
@@ -3081,7 +3178,9 @@ ul {
     height: 238px;
   }
 
-  
+  .header {
+    background-color: rgb(238, 133, 34);
+  }
 
   .post-header-container-wrap .title-arrow-image,
   .post-header-container-wrap .title-arrow-image-960 {
@@ -3114,10 +3213,14 @@ ul {
   }
 
   .reviews-section-container .reviews-container {
+    position: relative;
+    z-index: 53;
     height: 560px;
   }
 
   .reviews-section-container .sign-up-in-container {
+    position: relative;
+    z-index: 31;
     margin-top: 0;
   }
 
@@ -3145,9 +3248,22 @@ ul {
     margin-top: 390px;
   }
 
-  .container-wrap .review-wrap-2,
+  .container-wrap .review-wrap-1 {
+    z-index: 51;
+  }
+
+  .container-wrap .review-wrap-2 {
+    clear: both;
+    z-index: 46;
+  }
+
+  .container-wrap .review-wrap-3 {
+    z-index: 41;
+  }
+
   .container-wrap .review-wrap-4 {
     clear: both;
+    z-index: 36;
   }
 
   .preview-video-container .video-wrap-1 {
@@ -3276,13 +3392,6 @@ ul {
   body {
     font-size: 0.625em;
   }
-    
-.post-header-section-container {
-
-  height: 90vh;
-  min-height: 725px;
-
-}
 
   .btn-container button {
     left: 58.5981889204%;
@@ -3294,7 +3403,7 @@ ul {
   }
 
   .container-margin-center button {
-    bottom: 180px;
+    bottom: 70px;
     left: 0;
     right: 0;
     margin-right: auto;
@@ -3314,6 +3423,10 @@ ul {
     right: 0;
     width: 50%;
     margin: auto;
+  }
+
+  .navigation li {
+    position: relative;
   }
 
   .container-margin-center .post-header-container-wrap,
@@ -3374,6 +3487,10 @@ ul {
     margin-left: 0.38168%;
   }
 
+  .container-wrap .review-wrap {
+    position: relative;
+  }
+
   .content-headline-wrap .headline-wrap-position {
     width: 262px;
   }
@@ -3389,6 +3506,16 @@ ul {
   .footer-navigation-link .footer-link-1 {
     position: relative;
     z-index: 12;
+  }
+
+  .footer-navigation-link .footer-link-2 {
+    position: relative;
+    z-index: 13;
+  }
+
+  .footer-navigation-link .footer-link-3 {
+    position: relative;
+    z-index: 14;
   }
 
   .footer-navigation-link .footer-link-4 {
@@ -3409,19 +3536,23 @@ ul {
   }
 
   .navigation .nav-link1 {
+    z-index: 205;
     margin-left: 10.4034099999%;
   }
 
   .navigation .nav-link2 {
+    z-index: 204;
     margin-left: 0.23864%;
   }
 
   .navigation .nav-link3 {
     clear: both;
+    z-index: 203;
     margin-left: 4.20455%;
   }
 
   .navigation .nav-link4 {
+    z-index: 202;
     margin-left: 2.59091%;
   }
 
@@ -3433,8 +3564,18 @@ ul {
     margin-bottom: auto;
   }
 
+  .reviews-section-container .reviews-container {
+    position: relative;
+    z-index: 53;
+  }
+
+  .reviews-section-container .sign-up-in-container {
+    position: relative;
+    z-index: 31;
+  }
+
   .sign-up-in-container .idea-connection-succes-img {
-    width: 63%;
+    width: 50%;
     background-size: contain;
   }
 
@@ -3465,6 +3606,22 @@ ul {
 
   .title-container .line-arrow-img {
     width: 270px;
+  }
+
+  .container-wrap .review-wrap-1 {
+    z-index: 51;
+  }
+
+  .container-wrap .review-wrap-2 {
+    z-index: 46;
+  }
+
+  .container-wrap .review-wrap-3 {
+    z-index: 41;
+  }
+
+  .container-wrap .review-wrap-4 {
+    z-index: 36;
   }
 
   .preview-video-container .video-wrap-1 {
@@ -3535,20 +3692,4 @@ ul {
     position: relative;
     z-index: 72;
   }
-}
-.image-title-mobile {
-      margin: 0 auto;
-    width: 300px;
-     height: 500px;
-  background: url('../images/post-header-mobile.png') rgba(222, 222, 222, 0);
-  background-repeat: no-repeat;
-  background-size: auto auto;
-  background-position: center center;
-
-}
-
-@media(min-width: 550px) {
-.image-title-mobile{
-       display: none;
-    }
 }

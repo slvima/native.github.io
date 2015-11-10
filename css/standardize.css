@@ -7,10 +7,6 @@
 /**
  * Correct `block` display not defined in IE 8/9.
  */
-a{
-    text-decoration: none;
-    color: inherit;
-}
 
 article,
 aside,
@@ -79,6 +75,32 @@ html {
 
 body {
     margin: 0;
+}
+
+/* global selection */
+
+li {
+    cursor: pointer;
+}
+
+.user-info-preview-wrap {
+    cursor: pointer;
+}
+.social-links-container{
+    cursor: pointer;
+}
+.read_it-link{
+    cursor: pointer;
+}
+.title-text {
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.logo {
+    cursor: pointer;
 }
 
 /* ==========================================================================

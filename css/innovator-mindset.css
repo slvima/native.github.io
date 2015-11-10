@@ -1,0 +1,1000 @@
+body {
+  background-color: #fcfcfc;
+  font: 300 0.875em/1.38 Lato;
+  color: #080808;
+        min-width: 1200px;
+}
+
+.container-links ul {
+  position: relative;
+  float: left;
+  width: 700px;
+  height: 20px;
+}
+
+.description-wrap button {
+  position: relative;
+  float: left;
+  height: 41px;
+  border-radius: 50px;
+  font-size: 0.929em;
+}
+
+.footer-navigation-link li {
+  min-height: 18px;
+  font-size: 0.786em;
+}
+
+.navigation li {
+  font-size: 0.929em;
+  text-align: center;
+}
+
+.navigation li:hover {
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.navigation-desktop li {
+  font-weight: 900;
+  color: #3e3e3e;
+}
+
+.navigation-desktop ul {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 146;
+  width: 572px;
+  height: 35px;
+  margin: auto;
+}
+
+.navigation-tablet li {
+  margin-top: 9px;
+  font-weight: 700;
+}
+
+.navigation-tablet ul {
+  visibility: hidden;
+  float: left;
+  width: 668px;
+  height: 35px;
+  margin: 15px 0 auto 2.5%;
+}
+
+.video-wrap button {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 55px;
+  height: 40px;
+  margin: auto;
+  background: url('../images/play-ico.png') rgba(222, 222, 222, 0);
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  background-position: center center;
+  font-family: Helvetica;
+  font-size: 1.143em;
+  color: rgb(0, 0, 0);
+}
+
+.video-wrap-1 button {
+  z-index: 106;
+}
+
+.video-wrap-2 button {
+  z-index: 89;
+}
+
+.video-wrap-3 button {
+  z-index: 72;
+}
+
+.video-wrap-4 button {
+  z-index: 38;
+}
+
+.video-wrap-5 button {
+  z-index: 55;
+}
+
+button {
+  display: block;
+  font-weight: 400;
+  line-height: 1.38;
+  text-align: center;
+}
+
+li {
+  float: left;
+  line-height: 1.38;
+  text-transform: uppercase;
+}
+
+span {
+  display: block;
+  position: relative;
+  float: right;
+  z-index: 139;
+  width: 52px;
+  min-height: 21px;
+  margin: 21px 15.63895% 0 0;
+  font-size: 0.857em;
+  font-weight: 700;
+  line-height: 1.38;
+  color: #7a7a7a;
+}
+
+ul {
+  background-color: rgba(222, 222, 222, 0);
+}
+
+.additionally-info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 117;
+  width: 284px;
+  min-height: 24px;
+  margin: 0 auto;
+  font-style: italic;
+  font-size: 1.143em;
+  font-weight: 100;
+  line-height: 1.38;
+  text-align: center;
+  color: #ffffff;
+}
+
+.additionally-wrap {
+  position: relative;
+  width: 336px;
+  height: 21px;
+  margin: 16px auto 0;
+  background-image: url('../images/download-arrow-designed-by-freepik-from-flaticoncom.png');
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  background-position: 12% 50%;
+}
+
+.all_rights_reserved-text {
+  float: left;
+  clear: both;
+  width: 492px;
+  min-height: 20px;
+  margin-top: 2px;
+  font-size: 0.786em;
+  font-weight: 400;
+  line-height: 1.38;
+  color: rgb(255, 255, 255);
+}
+
+.circle-wrap {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 12px;
+  height: 12px;
+  margin: auto 0;
+  border-radius: 50px;
+  background-color: #121114;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.circle-wrap:hover {
+  -webkit-transform:  scale(1.5,1.5);
+  -moz-transform:  scale(1.5,1.5);
+  -o-transform:  scale(1.5,1.5);
+  -ms-transform:  scale(1.5,1.5);
+  transform:  scale(1.5,1.5);
+}
+
+.circle-wrap-active {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 24;
+  width: 17px;
+  height: 17px;
+  margin: auto;
+  border-radius: 50px;
+  background-color: rgb(18, 17, 20);
+}
+
+.container-links {
+  position: relative;
+  float: left;
+  z-index: 18;
+  width: 72.1649484536%;
+  height: 42px;
+  margin-top: 23px;
+}
+
+.content-container {
+  position: relative;
+  float: left;
+  clear: both;
+  width: 100%;
+  height: 1811px;
+  background-color: rgba(222, 222, 222, 0);
+}
+
+.controls-allign-wrap {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 27;
+  width: 100%;
+  height: 79px;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.controls-container {
+  position: absolute;
+  top: 1570px;
+  left: 0;
+  right: 0;
+  z-index: 28;
+  width: 71%;
+  height: 237px;
+  margin: 0 auto;
+  background-color: rgba(222, 222, 222, 0);
+}
+
+.description {
+  width: 242px;
+  min-height: 31px;
+  margin: 7px auto 0;
+  font: italic 400 0.714em/1.38 Helvetica;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.description-text {
+  width: 443px;
+  min-height: 125px;
+  margin: 0 auto;
+  font-size: 1em;
+  line-height: 1.38;
+  color: #080808;
+}
+
+.description-text-h2 {
+  width: 346px;
+  min-height: 60px;
+  margin: 10px auto 0;
+  font-size: 1.429em;
+  line-height: 1.38;
+  text-align: center;
+  color: #ffffff;
+}
+
+.description-wrap {
+  float: left;
+  width: 507px;
+  height: 242px;
+  background-color: rgba(222, 222, 222, 0);
+}
+
+.down-arrow {
+  position: absolute;
+  top: 70px;
+  left: 0;
+  right: 0;
+  z-index: 115;
+  width: 2%;
+  height: 19px;
+  margin: 0 auto;
+  background: url('../images/arrow-pointing-to-down-designed-by-freepik-from-flaticoncom(2).png') rgba(222, 222, 222, 0);
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  background-position: center center;
+}
+
+.download_pdf {
+  width: 132px;
+  margin: 1px 0 0 3.98792%;
+  background-color: rgb(247, 125, 76);
+  color: #ffffff;
+}
+
+.elements-align-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 121;
+  width: 850px;
+  height: 209px;
+  margin: auto;
+  background-color: rgba(222, 222, 222, 0);
+}
+
+.episodes-container {
+position: relative;
+  width: 772px;
+  height: 242px;
+  background-color: rgba(222, 222, 222, 0);
+    margin: 0 auto;
+}
+
+.epizodes-align-wrap {
+  position: relative;
+ 
+  width: 64.3333333333%;
+  height: 1420px;
+  top: 150px;
+margin: 0 auto;
+}
+
+.facebook-ico-link {
+  float: left;
+  width: 30px;
+  height: 86px;
+  background: url('../images/facebook-logo-button-designed-by-bogdan-rosu-from-flaticoncom.png') rgba(238, 175, 175, 0);
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  background-position: center center;
+}
+
+.footer-element-container {
+  position: relative;
+  width: 80.8333333333%;
+  height: 87px;
+  margin: 19px auto 0;
+  background-color: rgba(222, 222, 222, 0);
+}
+
+.footer-link-1 {
+  position: relative;
+  z-index: 12;
+  width: 66px;
+  font-weight: 400;
+  color: rgb(109, 109, 110);
+}
+
+.footer-link-2 {
+  width: 66px;
+  font-weight: 400;
+  color: rgb(109, 109, 110);
+}
+
+.footer-link-3 {
+  width: 81px;
+  margin-left: 4.57143%;
+  font-weight: 400;
+  color: rgb(109, 109, 110);
+}
+
+.footer-link-4 {
+  position: relative;
+  z-index: 15;
+  width: 66px;
+  margin-left: 5.5625%;
+  font-weight: 400;
+  color: rgb(109, 109, 110);
+}
+
+.footer-link-5 {
+  width: 198px;
+  margin-left: 1.99777%;
+  color: rgb(255, 255, 255);
+}
+
+.footer-section {
+  float: left;
+  clear: both;
+  width: 100%;
+  height: 128px;
+  background-color: #121114;
+}
+
+.google_plus-ico-link {
+  float: left;
+  width: 30px;
+  height: 86px;
+  background: url('../images/google-plus-social-logotype-designed-by-freepik-from-flaticoncom.png') rgba(238, 175, 175, 0);
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  background-position: center center;
+}
+
+.header {
+  position: relative;
+  float: left;
+  width: 100%;
+  height: 75px;
+  background-color: #fafafa;
+}
+
+.headline-border-rectangle {
+  position: absolute;
+  bottom: -13px;
+  left: 0;
+  right: 0;
+  z-index: 126;
+  width: 260px;
+  height: 26px;
+  margin: 0 auto;
+  border: 1px solid #efefef;
+  background-color: #fafafa;
+}
+
+.headline-h1 {
+  width: 562px;
+  min-height: 68px;
+  margin: 0 auto;
+  font-size: 3.214em;
+  font-weight: 700;
+  line-height: 1.38;
+  text-align: center;
+  color: #ffffff;
+}
+
+.headline-text {
+  width: 241px;
+  min-height: 16px;
+  margin: 3px auto 0;
+  font-size: 0.929em;
+  line-height: 1.38;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: rgb(118, 118, 118);
+}
+
+.headline-vid {
+  width: 242px;
+  min-height: 18px;
+  margin: 6px auto 0;
+  font: 400 0.857em/1.38 Helvetica;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: rgb(255, 255, 255);
+}
+
+.likes-static {
+  float: left;
+  width: 40px;
+  min-height: 14px;
+  margin: 10px 0 0 30.53309%;
+  font: 400 0.929em/1.38 Helvetica;
+  color: rgb(255, 255, 255);
+}
+
+.likes-wrap {
+  position: absolute;
+  top: 3px;
+  left: 36.7903148854%;
+  width: 85px;
+  height: 35px;
+  background: url('../images/heart-designed-by-freepik-from-flaticoncom.png') rgba(222, 222, 222, 0);
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  background-position: left center;
+}
+
+.line {
+  float: left;
+  clear: both;
+  width: 99.9166666666%;
+  height: 1px;
+  background-color: #efefef;
+}
+
+.line-vid {
+  width: 48px;
+  height: 1px;
+  margin: 6px auto 0;
+  background-color: rgb(255, 255, 255);
+}
+
+.links-logic {
+  position: absolute;
+  top: 25px;
+  left: 2.5%;
+  z-index: 123;
+  width: 50%;
+  min-height: 23px;
+  font-size: 0.857em;
+  line-height: 1.38;
+  color: #c1c1c1;
+}
+
+.logic-links-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 124;
+  width: 100%;
+  height: 69px;
+}
+
+.login-panel {
+  position: absolute;
+  top: 0;
+  right: 0.1158854166%;
+  z-index: 140;
+  width: 112px;
+  height: 75px;
+  background-color: rgba(222, 222, 222, 0);
+}
+
+.logo {
+  position: absolute;
+  top: 0;
+  left: 2.25%;
+  z-index: 136;
+  width: 210px;
+  height: 75px;
+  background-image: url('../images/logo-header(2).png');
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  background-position: center center;
+}
+
+.logo-container-footer {
+  position: absolute;
+  top: 0;
+  right: 0.2754820936%;
+  width: 195px;
+  height: 75px;
+  background: url('../images/logo-footer.png') rgba(222, 222, 222, 0);
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  background-position: center center;
+}
+
+.nav-link1 {
+  width: 125px;
+  min-height: 20px;
+  margin-top: 9px;
+  color: #767676;
+}
+
+.nav-link1:hover {
+  text-decoration: none;
+  color: #000000;
+}
+
+.nav-link2 {
+  width: 94px;
+  min-height: 20px;
+  margin-top: 9px;
+  color: #7a7a7a;
+}
+
+.nav-link3 {
+  width: 67px;
+  min-height: 20px;
+  margin-top: 9px;
+  color: #767676;
+}
+
+.nav-link4 {
+  width: 100px;
+  min-height: 20px;
+  margin-top: 9px;
+  color: #767676;
+}
+
+.nav-link4:hover {
+  color: #101010;
+}
+
+.nav-link5 {
+  min-height: 34px;
+  color: #767676;
+}
+
+.nav-link2:hover,
+.nav-link3:hover,
+.nav-link5:hover {
+  color: #000000;
+}
+
+.navigation-desktop {
+  position: relative;
+  float: left;
+  width: 100%;
+  height: 76px;
+  background-color: #fafafa;
+}
+
+.navigation-desktop .nav-link1 {
+  margin-left: 0.17483%;
+}
+
+.navigation-desktop .nav-link3 {
+  margin-left: 4.18761%;
+}
+
+.navigation-desktop .nav-link2,
+.navigation-desktop .nav-link4 {
+  margin-left: 4.37063%;
+}
+
+.navigation-desktop .nav-link5 {
+  width: 86px;
+  margin-left: 4.30507%;
+}
+
+.navigation-tablet {
+  visibility: hidden;
+  position: absolute;
+  top: 75px;
+  left: 0;
+  z-index: 134;
+  width: 100%;
+  height: 50px;
+  background-color: #efefef;
+  overflow: visible;
+}
+
+.navigation-tablet .nav-link1 {
+  margin-left: 0.16374%;
+}
+
+.navigation-tablet .nav-link3 {
+  margin-left: 4.18694%;
+}
+
+.navigation-tablet .nav-link2,
+.navigation-tablet .nav-link4 {
+  margin-left: 4.36939%;
+}
+
+.navigation-tablet .nav-link5 {
+  width: 144px;
+  margin-left: 4.26647%;
+}
+
+.notifications {
+  position: relative;
+  float: right;
+  z-index: 137;
+  width: 68px;
+  height: 75px;
+  margin-right: 111px;
+  background: url('../images/notifications-bell-button-designed-by-google-from-flaticoncom(2).svg') rgba(222, 222, 222, 0);
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  background-position: center center;
+}
+
+.numbers-static {
+  float: left;
+  width: 40px;
+  min-height: 12px;
+  margin: 10px 0 0 30.77206%;
+  background-color: rgba(255, 255, 255, 0);
+  font: 400 0.929em/1.38 Helvetica;
+  color: rgb(255, 255, 255);
+}
+
+.page-numbers {
+  float: left;
+  width: 8px;
+  min-height: 12px;
+  margin-left: 5px;
+  font-size: 0.786em;
+  font-weight: 400;
+  line-height: 1.38;
+  color: rgb(255, 255, 255);
+}
+
+.pages-circle-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 26;
+  width: 60px;
+  height: 21px;
+  margin: auto;
+  background-color: rgba(248, 159, 159, 0);
+}
+
+.post-header-center-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 122;
+  width: 100%;
+  height: 314px;
+  margin: auto;
+  background-color: rgba(243, 241, 241, 0);
+}
+
+.post-header-image-container {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 127;
+  width: 100%;
+  height: 440px;
+  background: url('../images/people-woman-coffee-meeting.png') rgba(255, 255, 255, 0);
+  background-size: 150% auto;
+  background-position: left center;
+}
+
+.social-links-container {
+  position: absolute;
+  top: 0;
+  left: -0.210915978%;
+  z-index: 5;
+  width: 121px;
+  height: 85px;
+  background-color: rgba(222, 222, 222, 0);
+}
+
+.social-logo-container-wrap {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 6;
+  width: 37.4226804123%;
+  height: 85px;
+}
+
+.social-static-wrap {
+  position: relative;
+  width: 262px;
+  height: 45px;
+  margin: 0 auto;
+  background-color: rgba(222, 222, 222, 0);
+}
+
+.title {
+  width: 441px;
+  min-height: 38px;
+  margin: 0 auto;
+  font-size: 1.429em;
+  font-weight: 700;
+  line-height: 1.38;
+  color: #333333;
+}
+
+.title-wrap {
+  width: 264px;
+  height: 82px;
+  margin: 114px auto 0;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.top-arrow {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 21;
+  width: 3.1690140845%;
+  height: 22px;
+  margin: auto 0;
+  background: url('../images/upwards-arrow-designed-by-anas-ramadan-from-flaticoncom.png') rgba(222, 222, 222, 0);
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  background-position: center center;
+}
+
+.top-arrow:hover {
+  opacity: 0.8;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.twitter-ico-link {
+  float: left;
+  width: 30px;
+  height: 86px;
+  background: url('../images/twitter-logo-button-designed-by-bogdan-rosu-from-flaticoncom.png') rgba(238, 175, 175, 0);
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  background-position: center center;
+}
+
+.user-login {
+  position: absolute;
+  top: 0;
+  right: 56.3973063973%;
+  z-index: 138;
+  width: 47px;
+  height: 75px;
+  background: url('../images/man-user-designed-by-freepik-from-flaticoncom(2).svg') rgba(222, 222, 222, 0);
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  background-position: center center;
+}
+
+.vertical-line-footer {
+  position: absolute;
+  top: 3px;
+  width: 1px;
+  height: 12px;
+  background-color: #acacac;
+}
+
+.video-wrap {
+  position: relative;
+  float: left;
+  width: 264px;
+  height: 242px;
+  background: url('../images/image-preview.png') rgb(71, 67, 67);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.views-static {
+  position: absolute;
+  top: 3px;
+  left: 4.389312977%;
+  width: 85px;
+  height: 35px;
+  background: url('../images/eye-designed-by-freepik-from-flaticoncom.png') rgba(222, 222, 222, 0);
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  background-position: left center;
+}
+
+.watch {
+  clear: both;
+  width: 150px;
+  margin-left: 5.9972899999%;
+  border: 1px solid rgb(204, 204, 204);
+  background-color: rgba(222, 222, 222, 0);
+  color: #a1a1a1;
+}
+
+.youtube-ico-link {
+  float: left;
+  width: 30px;
+  height: 86px;
+  background: url('../images/youtube-logo-designed-by-simpleicon-from-flaticoncom(3).png') rgba(238, 175, 175, 0);
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  background-position: center center;
+}
+
+.circle-wrap-1 {
+  left: 3.5714285714%;
+  z-index: 25;
+}
+
+.circle-wrap-2 {
+  right: 2.8738839285%;
+  z-index: 22;
+}
+
+.download_pdf-1 {
+  z-index: 97;
+}
+
+.download_pdf-2 {
+  z-index: 80;
+}
+
+.download_pdf-3 {
+  z-index: 63;
+}
+
+.download_pdf-4 {
+  z-index: 29;
+}
+
+.download_pdf-5 {
+  z-index: 46;
+}
+
+.episodes-container-2,
+.episodes-container-3,
+.episodes-container-4,
+.episodes-container-5 {
+  clear: both;
+  margin-top: 50px;
+}
+
+.likes-wrap-1 {
+  z-index: 108;
+}
+
+.likes-wrap-2 {
+  z-index: 91;
+}
+
+.likes-wrap-3 {
+  z-index: 74;
+}
+
+.likes-wrap-4 {
+  z-index: 40;
+}
+
+.likes-wrap-5 {
+  z-index: 57;
+}
+
+.vertical-line-footer-1 {
+  left: 7.1428571428%;
+  z-index: 9;
+}
+
+.vertical-line-footer-2 {
+  left: 20.2857142857%;
+  z-index: 10;
+}
+
+.vertical-line-footer-3 {
+  left: 37.5714285714%;
+  z-index: 11;
+}
+
+.vertical-line-footer-4 {
+  left: 48.8571428571%;
+  z-index: 8;
+}
+
+.views-static-1 {
+  z-index: 110;
+}
+
+.views-static-2 {
+  z-index: 93;
+}
+
+.views-static-3 {
+  z-index: 76;
+}
+
+.views-static-4 {
+  z-index: 42;
+}
+
+.views-static-5 {
+  z-index: 59;
+}
+
+.watch-1 {
+  z-index: 98;
+}
+
+.watch-2 {
+  z-index: 81;
+}
+
+.watch-3 {
+  z-index: 64;
+}
+
+.watch-4 {
+  z-index: 30;
+}
+
+.watch-5 {
+  z-index: 47;
+}

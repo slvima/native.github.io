@@ -1,0 +1,806 @@
+body {
+  background-color: #fcfcfc;
+  font: 400 0.813em/1.38 Lato;
+  color: #3e3e3e;
+        min-width: 1200px;
+}
+
+.about-user-wrap button {
+  position: absolute;
+  bottom: 56px;
+  right: 1.0823863636%;
+  z-index: 32;
+}
+
+.container-links ul {
+  position: relative;
+  float: left;
+  width: 700px;
+  height: 20px;
+}
+
+.footer-navigation-link li {
+  min-height: 18px;
+  font-size: 0.846em;
+}
+
+.navigation li {
+  font-size: 1em;
+  text-align: center;
+}
+
+.navigation li:hover {
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.navigation-desktop li {
+  font-weight: 900;
+  color: #3e3e3e;
+}
+
+.navigation-desktop ul {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 68;
+  width: 572px;
+  height: 35px;
+  margin: auto;
+}
+
+.navigation-tablet li {
+  margin-top: 9px;
+  font-weight: 700;
+}
+
+.navigation-tablet ul {
+  visibility: hidden;
+  float: left;
+  width: 668px;
+  height: 35px;
+  margin: 15px 0 auto 2.5%;
+}
+
+.user-info-preview-wrap button {
+  position: absolute;
+  bottom: 34px;
+  right: 34px;
+  z-index: 35;
+}
+
+button {
+  display: block;
+  width: 20px;
+  height: 20px;
+  background: url('../images/pen-on-square-of-paper-interface-symbol-designed-by-simpleicon-from-white.png') rgba(222, 222, 222, 0);
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  background-position: center center;
+  text-align: left;
+}
+
+input {
+  display: block;
+  width: 500px;
+  height: 47px;
+  margin: 0 auto;
+  padding: 0 10px;
+  background-color: #fafafa;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.38;
+  color: #787878;
+}
+
+li {
+  float: left;
+  line-height: 1.38;
+  text-transform: uppercase;
+}
+
+span {
+  display: block;
+  position: relative;
+  float: right;
+  z-index: 61;
+  width: 52px;
+  min-height: 21px;
+  margin: 21px 15.63895% 0 0;
+  font-size: 0.923em;
+  font-weight: 700;
+  line-height: 1.38;
+  color: #7a7a7a;
+}
+
+ul {
+  background-color: rgba(222, 222, 222, 0);
+}
+
+.about-user-wrap {
+  position: absolute;
+  top: 235px;
+  left: 0;
+  right: 0;
+  z-index: 34;
+  width: 100%;
+  height: 47px;
+  margin: 0 auto;
+}
+
+.all_rights_reserved-text {
+  float: left;
+  clear: both;
+  width: 492px;
+  min-height: 20px;
+  margin-top: 2px;
+  font-size: 0.846em;
+  font-weight: 400;
+  line-height: 1.38;
+  color: rgb(255, 255, 255);
+}
+
+.avatar-img {
+  width: 145px;
+  height: 145px;
+  margin: 0 auto;
+  border-radius: 100px;
+  background: url('../images/man-user-designed-by-freepik-from-flaticoncom.png') #fafafa;
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  background-position: center center;
+}
+
+.back-arrow-wrap {
+  position: absolute;
+  top: 18px;
+  left: 2.9448529411%;
+  z-index: 42;
+  width: 50px;
+  height: 294px;
+  background: url('../images/white-back-arrow.png') rgba(222, 222, 222, 0);
+  background-repeat: no-repeat;
+  background-size: 22px auto;
+  background-position: left top;
+}
+
+.container-links {
+  position: relative;
+  float: left;
+  z-index: 18;
+  width: 72.1649484536%;
+  height: 42px;
+  margin-top: 23px;
+}
+
+.content-container {
+  visibility: hidden;
+  position: relative;
+  float: left;
+  clear: both;
+  width: 100%;
+  height: 300px;
+  background-color: rgba(252, 252, 252, 0);
+}
+
+.element-center-wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 41;
+  width: 550px;
+  height: 313px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.elements-align-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 43;
+  width: 850px;
+  height: 313px;
+  margin: 0 auto;
+  background-color: rgba(222, 222, 222, 0);
+}
+
+.facebook-ico-link {
+  float: left;
+  width: 30px;
+  height: 86px;
+  background: url('../images/facebook-logo-button-designed-by-bogdan-rosu-from-flaticoncom.png') rgba(238, 175, 175, 0);
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  background-position: center center;
+}
+
+.facebook-link {
+  float: left;
+  width: 30px;
+  height: 26px;
+  background: url('../images/facebook-logo-button-designed-by-bogdan-rosu-from-flaticoncom(3).png') rgba(222, 222, 222, 0);
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  background-position: center center;
+}
+
+.first-name {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 36;
+  width: 216px;
+  min-height: 18px;
+  margin-top: 15px;
+  font-size: 1.538em;
+  font-weight: 400;
+  line-height: 1.38;
+  text-align: center;
+  color: #ef8522;
+}
+
+.footer-element-container {
+  position: relative;
+  width: 80.8333333333%;
+  height: 87px;
+  margin: 19px auto 0;
+  background-color: rgba(222, 222, 222, 0);
+}
+
+.footer-link-1 {
+  position: relative;
+  z-index: 12;
+  width: 66px;
+  color: rgb(109, 109, 110);
+}
+
+.footer-link-2 {
+  width: 66px;
+  color: rgb(109, 109, 110);
+}
+
+.footer-link-3 {
+  width: 81px;
+  margin-left: 4.57143%;
+  color: rgb(109, 109, 110);
+}
+
+.footer-link-4 {
+  position: relative;
+  z-index: 15;
+  width: 66px;
+  margin-left: 5.5625%;
+  color: rgb(109, 109, 110);
+}
+
+.footer-link-5 {
+  width: 198px;
+  margin-left: 1.99777%;
+  font-weight: 300;
+  color: rgb(255, 255, 255);
+}
+
+.footer-section {
+  float: left;
+  clear: both;
+  width: 100%;
+  height: 128px;
+  background-color: #121114;
+}
+
+.google-link {
+  float: left;
+  width: 30px;
+  height: 26px;
+  background: url('../images/google-plus-social-logotype-designed-by-freepik-from-flaticoncom(2).png') rgba(222, 222, 222, 0);
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  background-position: center center;
+}
+
+.google_plus-ico-link {
+  float: left;
+  width: 30px;
+  height: 86px;
+  background: url('../images/google-plus-social-logotype-designed-by-freepik-from-flaticoncom.png') rgba(238, 175, 175, 0);
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  background-position: center center;
+}
+
+.header {
+  position: relative;
+  float: left;
+  width: 100%;
+  height: 75px;
+  background-color: #fafafa;
+}
+
+.headline-border-rectangle {
+  position: absolute;
+  top: 427px;
+  left: 0;
+  right: 0;
+  z-index: 48;
+  width: 182px;
+  height: 26px;
+  margin: 0 auto;
+  border: 1px solid #efefef;
+  background-color: #fafafa;
+}
+
+.headline-text {
+  width: 171px;
+  min-height: 16px;
+  margin: 3px auto 0;
+  font-size: 1em;
+  font-weight: 300;
+  line-height: 1.38;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: rgb(118, 118, 118);
+}
+
+.ideas-stats {
+  float: left;
+  clear: both;
+  width: 100%;
+  min-height: 20px;
+  font-size: 1.385em;
+  line-height: 1.38;
+  text-align: center;
+  color: #ef8522;
+}
+
+.ideas-stats-title {
+  float: left;
+  width: 100%;
+  min-height: 16px;
+  font-size: 0.846em;
+  font-weight: 700;
+  line-height: 1.38;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+}
+
+.ideas-stats-wrap {
+  float: left;
+  width: 80px;
+  height: 60px;
+  background-color: rgba(222, 222, 222, 0);
+}
+
+.line {
+  float: left;
+  clear: both;
+  width: 99.9166666666%;
+  height: 1px;
+  background-color: #efefef;
+}
+
+.links-logic {
+  position: absolute;
+  top: 25px;
+  left: 2.5%;
+  z-index: 45;
+  width: 50%;
+  min-height: 23px;
+  font-size: 0.923em;
+  font-weight: 300;
+  line-height: 1.38;
+  color: #c1c1c1;
+}
+
+.logic-links-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 46;
+  width: 100%;
+  height: 69px;
+}
+
+.login-panel {
+  position: absolute;
+  top: 0;
+  right: 0.1158854166%;
+  z-index: 62;
+  width: 112px;
+  height: 75px;
+  background-color: rgba(222, 222, 222, 0);
+}
+
+.logo {
+  position: absolute;
+  top: 0;
+  left: 2.25%;
+  z-index: 58;
+  width: 210px;
+  height: 75px;
+  background-image: url('../images/logo-header(2).png');
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  background-position: center center;
+}
+
+.logo-container-footer {
+  position: absolute;
+  top: 0;
+  right: 0.2754820936%;
+  width: 195px;
+  height: 75px;
+  background: url('../images/logo-footer.png') rgba(222, 222, 222, 0);
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  background-position: center center;
+}
+
+.nav-link1 {
+  width: 125px;
+  min-height: 20px;
+  margin-top: 9px;
+  color: #767676;
+}
+
+.nav-link1:hover {
+  text-decoration: none;
+  color: #000000;
+}
+
+.nav-link2 {
+  width: 94px;
+  min-height: 20px;
+  margin-top: 9px;
+  color: #7a7a7a;
+}
+
+.nav-link3 {
+  width: 67px;
+  min-height: 20px;
+  margin-top: 9px;
+  color: #767676;
+}
+
+.nav-link4 {
+  width: 100px;
+  min-height: 20px;
+  margin-top: 9px;
+  color: #767676;
+}
+
+.nav-link4:hover {
+  color: #101010;
+}
+
+.nav-link5 {
+  min-height: 34px;
+  color: #767676;
+}
+
+.nav-link2:hover,
+.nav-link3:hover,
+.nav-link5:hover {
+  color: #000000;
+}
+
+.navigation-desktop {
+  position: relative;
+  float: left;
+  width: 100%;
+  height: 76px;
+  background-color: #fafafa;
+}
+
+.navigation-desktop .nav-link1 {
+  margin-left: 0.17483%;
+}
+
+.navigation-desktop .nav-link3 {
+  margin-left: 4.18761%;
+}
+
+.navigation-desktop .nav-link2,
+.navigation-desktop .nav-link4 {
+  margin-left: 4.37063%;
+}
+
+.navigation-desktop .nav-link5 {
+  width: 86px;
+  margin-left: 4.30507%;
+}
+
+.navigation-tablet {
+  visibility: hidden;
+  position: absolute;
+  top: 75px;
+  left: 0;
+  z-index: 56;
+  width: 100%;
+  height: 50px;
+  background-color: #efefef;
+  overflow: visible;
+}
+
+.navigation-tablet .nav-link1 {
+  margin-left: 0.16374%;
+}
+
+.navigation-tablet .nav-link3 {
+  margin-left: 4.18694%;
+}
+
+.navigation-tablet .nav-link2,
+.navigation-tablet .nav-link4 {
+  margin-left: 4.36939%;
+}
+
+.navigation-tablet .nav-link5 {
+  width: 144px;
+  margin-left: 4.26647%;
+}
+
+.notifications {
+  position: relative;
+  float: right;
+  z-index: 59;
+  width: 68px;
+  height: 75px;
+  margin-right: 111px;
+  background: url('../images/notifications-bell-button-designed-by-google-from-flaticoncom(2).svg') rgba(222, 222, 222, 0);
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  background-position: center center;
+}
+
+.post-header-center-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 44;
+  width: 100%;
+  height: 314px;
+  margin: auto;
+  background-color: rgba(243, 241, 241, 0);
+}
+
+.post-header-image-container {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 49;
+  width: 100%;
+  height: 440px;
+  background: url('../images/stardust%20bg.jpg') rgba(255, 255, 255, 0);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left top;
+}
+
+.social-comtainer {
+  float: left;
+  clear: both;
+  width: 100%;
+  height: 26px;
+  background-color: rgba(222, 222, 222, 0);
+}
+
+.social-links-container {
+  position: absolute;
+  top: 0;
+  left: -0.210915978%;
+  z-index: 5;
+  width: 121px;
+  height: 85px;
+  background-color: rgba(222, 222, 222, 0);
+}
+
+.social-logo-container-wrap {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 6;
+  width: 37.4226804123%;
+  height: 85px;
+}
+
+.social-wrap {
+  width: 75%;
+  height: 26px;
+  margin: 0 auto;
+}
+
+.stats-contact-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 31;
+  width: 80px;
+  height: 313px;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.twitter-ico-link {
+  float: left;
+  width: 30px;
+  height: 86px;
+  background: url('../images/twitter-logo-button-designed-by-bogdan-rosu-from-flaticoncom.png') rgba(238, 175, 175, 0);
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  background-position: center center;
+}
+
+.user-contacts-wrap {
+  float: left;
+  clear: both;
+  width: 80px;
+  height: 60px;
+  background-color: rgba(222, 222, 222, 0);
+}
+
+.user-info-preview-wrap {
+  position: relative;
+  width: 216px;
+  height: 201px;
+  margin: 24px auto 0;
+}
+
+.user-info-wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 40;
+  width: 500px;
+  height: 230px;
+  margin: 0 auto;
+  background-color: rgba(222, 222, 222, 0);
+}
+
+.user-info-wrap .edit-avatar-image {
+  float: right;
+}
+
+.user-login {
+  position: absolute;
+  top: 0;
+  right: 56.3973063973%;
+  z-index: 60;
+  width: 47px;
+  height: 75px;
+  background: url('../images/man-user-designed-by-freepik-from-flaticoncom(2).svg') rgba(222, 222, 222, 0);
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  background-position: center center;
+}
+
+.vertical-line-footer {
+  position: absolute;
+  top: 3px;
+  width: 1px;
+  height: 12px;
+  background-color: #acacac;
+}
+
+.youtube-ico-link {
+  float: left;
+  width: 30px;
+  height: 86px;
+  background: url('../images/youtube-logo-designed-by-simpleicon-from-flaticoncom(3).png') rgba(238, 175, 175, 0);
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  background-position: center center;
+}
+
+.vertical-line-footer-1 {
+  left: 7.1428571428%;
+  z-index: 9;
+}
+
+.vertical-line-footer-2 {
+  left: 20.2857142857%;
+  z-index: 10;
+}
+
+.vertical-line-footer-3 {
+  left: 37.5714285714%;
+  z-index: 11;
+}
+
+.vertical-line-footer-4 {
+  left: 48.8571428571%;
+  z-index: 8;
+}
+
+@media(max-width: 1024px) {
+  .navigation-desktop ul {
+    visibility: hidden;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+
+  .navigation-tablet ul {
+    visibility: visible;
+    position: absolute;
+    float: none;
+    top: 0;
+    bottom: 0;
+    left: 2.2%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+  }
+
+  div span {
+    position: relative;
+    z-index: 61;
+  }
+
+  .element-center-wrap .about-user-wrap,
+  .element-center-wrap .user-info-wrap,
+  .elements-align-container .element-center-wrap,
+  .post-header-center-container .elements-align-container,
+  .post-header-image-container .headline-border-rectangle {
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .footer-element-container .container-links {
+    position: relative;
+    z-index: 18;
+  }
+
+  .footer-navigation-link .footer-link-1 {
+    position: relative;
+    z-index: 12;
+  }
+
+  .footer-navigation-link .footer-link-4 {
+    position: relative;
+    z-index: 15;
+  }
+
+  .navigation-desktop .notifications {
+    position: relative;
+    z-index: 59;
+  }
+
+  .navigation-tablet {
+    visibility: visible;
+  }
+
+  .post-header-image-container {
+    position: relative;
+    z-index: 49;
+    margin-top: 50px;
+  }
+
+  .post-header-image-container .post-header-center-container {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+
+  .user-info-preview-wrap .first-name {
+    position: relative;
+    z-index: 36;
+  }
+}
