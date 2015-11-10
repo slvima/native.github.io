@@ -2,6 +2,7 @@ body {
   background-color: #fcfcfc;
   font: 300 0.875em/1.38 Lato;
   color: #080808;
+    min-width: 1200px;
 }
 
 .button-post-header-container button {
