@@ -86,9 +86,7 @@ li {
 .user-info-preview-wrap {
     cursor: pointer;
 }
-.social-links-container{
-    cursor: pointer;
-}
+
 .read_it-link{
     cursor: pointer;
 }
@@ -102,7 +100,7 @@ a {
 .logo {
     cursor: pointer;
 }
-facebook-ico-link witter-ico-link google_plus-ico-link youtube-ico-link
+
 
 
 /* ==========================================================================

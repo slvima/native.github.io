@@ -8,8 +8,27 @@
   <link rel="stylesheet" href="css/standardize.css">
   <link rel="stylesheet" href="css/partnerships-grid.css">
   <link rel="stylesheet" href="css/partnerships.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/pre-loading-effect.css" />
+<script src="js/modernizr.custom.js"></script>
+<script src="js/jquery-1.6.1.min.js"></script>
 </head>
 <body class="body page-members clearfix">
+ <div id="ip-container" class="ip-container">
+ <!-- Pre loader -->
+ <header class="ip-header">
+				<div class="ip-loader">
+					<svg class="ip-inner" width="60px" height="60px" viewBox="0 0 80 80">
+						<path class="ip-loader-circlebg" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z"/>
+						<path id="ip-loader-circle" class="ip-loader-circle" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z"/>
+					</svg>
+				</div>
+			</header>
+ <!-- End Pre loader -->
+        
+			<!-- main content -->
+<div class="ip-main">
+     <div class="browser clearfix">
   <div class="header clearfix">
     <div onClick="window.location='index.html';" class="logo"></div>
     <ul class="navigation clearfix">
@@ -263,5 +282,13 @@ Association
       </div>
     </div>
   </div>
+  </div>
+    </div>
+    </div>
+      <!-- end content -->
+
+   	<script src="js/classie.js"></script>
+		<script src="js/pathLoader.js"></script>
+		<script src="js/main.js"></script>
 </body>
 </html>
