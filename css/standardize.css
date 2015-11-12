@@ -77,32 +77,6 @@ body {
     margin: 0;
 }
 
-/* global selection */
-
-li {
-    cursor: pointer;
-}
-
-.user-info-preview-wrap {
-    cursor: pointer;
-}
-
-.read_it-link{
-    cursor: pointer;
-}
-.title-text {
-    cursor: pointer;
-}
-a {
-    text-decoration: none;
-    color: inherit;
-}
-.logo {
-    cursor: pointer;
-}
-
-
-
 /* ==========================================================================
    Links
    ========================================================================== */
