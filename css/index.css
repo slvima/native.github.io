@@ -1,43 +1,7 @@
 body {
   background-color: rgb(255, 255, 255);
-  font: 400 1em/1.68 'Open Sans';
-  color: rgb(24, 150, 165);
-}
-
-h4 p {
-  margin-bottom: 1em;
-}
-
-.about-container {
-  width: 45.9166666666%;
-  height: 254px;
-  margin: 70px auto 0;
-}
-
-.about-container .title {
-  width: 251px;
-  min-height: 50px;
-  font-size: 2.188em;
-  font-weight: 300;
-  color: #20c6d9;
-}
-
-.about-container-color-fix {
-  position: relative;
-  float: left;
-  width: 100%;
-  height: 400px;
-  background-color: rgba(255, 255, 255, 0.96);
-}
-
-.about-section {
-  float: left;
-  clear: both;
-  width: 100%;
-  height: 400px;
-  background-image: none;
-  background-size: auto auto;
-  background-position: center center;
+  font: 300 1.375em/1.58 'Open Sans';
+  color: rgb(255, 255, 255);
 }
 
 .color-effect {
@@ -45,7 +9,7 @@ h4 p {
   width: 100%;
   height: 800px;
   margin: 0 auto;
-  background-color: rgba(32, 198, 217, 0.76);
+  background-color: rgba(26, 28, 39, 0.58);
 }
 
 .content-section {
@@ -53,16 +17,14 @@ h4 p {
   clear: both;
   width: 100%;
   height: 500px;
+  margin-top: 400px;
 }
 
 .description {
   width: 550px;
   min-height: 63px;
   margin: 6px auto 0;
-  font-style: italic;
-  font-size: 1.5em;
-  font-weight: 300;
-  line-height: 1.58;
+  font-size: 1em;
   text-align: center;
   color: rgb(255, 255, 255);
 }
@@ -95,7 +57,7 @@ h4 p {
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 18;
+  z-index: 13;
   width: 100%;
   height: 170px;
   background-color: rgb(253, 253, 253);
@@ -104,12 +66,12 @@ h4 p {
 .image-baner-section {
   position: relative;
   float: left;
-  z-index: 11;
+  z-index: 6;
   width: 100%;
   height: 800px;
-  background-image: url('../images/black-and-white-night-building-house.jpg');
+  background-image: url('../images/SfBygjxVLV4.jpg');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: auto auto;
   background-position: center center;
 }
 
@@ -118,7 +80,7 @@ h4 p {
   top: 8px;
   left: 0;
   right: 0;
-  z-index: 17;
+  z-index: 12;
   width: 334px;
   height: 145px;
   margin: 0 auto;
@@ -135,7 +97,7 @@ h4 p {
   top: 0;
   bottom: 0;
   left: 5%;
-  z-index: 16;
+  z-index: 11;
   width: 34px;
   height: 40px;
   margin: auto 0;
@@ -162,8 +124,8 @@ h4 p {
   width: 58%;
   height: 67px;
   margin: 60px auto 0;
-  background-color: #2c2c2c;
-  font-size: 1.125em;
+  background-color: #20c6d9;
+  font-size: 0.818em;
   font-weight: 600;
   line-height: 1.38;
   text-align: center;
@@ -208,44 +170,26 @@ h4 p {
   margin: 65px 5% 0 0;
 }
 
-.text {
-  float: left;
-  clear: both;
-  width: 99.8185117967%;
-  min-height: 149px;
-  margin: 15px 0 0 3.9870689655%;
-  padding-left: 20px;
-  border-left: 3px solid #20c6d9;
-  font-size: 1em;
-  color: rgb(24, 150, 165);
-}
-
 .title {
+  width: 659px;
+  min-height: 100px;
   margin: 0 auto;
-  line-height: 1.38;
+  font: 700 3.045em/1.38 Arvo;
   text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: rgb(255, 255, 255);
 }
 
 .title-container {
   position: absolute;
-  top: 320px;
+  top: 350px;
   left: 0;
   right: 0;
-  z-index: 9;
+  z-index: 4;
   width: 660px;
   height: 308px;
   margin: 0 auto;
-}
-
-.title-container .title {
-  width: 659px;
-  min-height: 100px;
-  font-family: Arvo;
-  font-size: 4.188em;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  color: rgb(255, 255, 255);
 }
 
 .youtube-link {
@@ -258,4 +202,73 @@ h4 p {
   background-size: auto auto;
   background-position: center center;
   text-align: left;
+}
+
+@media(max-width: 745px) {
+  .color-effect .title-container {
+    left: 0;
+    right: 0;
+    width: 88.5906040268%;
+    height: 473px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .header .logo-container {
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .header .menu-container {
+    top: 0;
+    bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .image-baner-section {
+    position: relative;
+    z-index: 6;
+    height: 900px;
+  }
+
+  .image-baner-section .color-effect {
+    height: 900px;
+  }
+
+  .title-container .description {
+    width: 83.3333333333%;
+  }
+
+  .title-container .title {
+    width: 99.8484848484%;
+  }
+}
+
+@media(max-width: 555px) {
+  body {
+    font-size: 1.375em;
+  }
+
+  .color-effect .title-container,
+  .header .logo-container {
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .header .menu-container {
+    top: 0;
+    bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .image-baner-section {
+    position: relative;
+    z-index: 6;
+  }
 }
