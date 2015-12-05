@@ -37,7 +37,7 @@ body {
   position: relative;
   float: left;
   width: 100%;
-  height: 800px;
+  height: 100vh;
   background-image: url('../images/fgh.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -113,21 +113,22 @@ body {
   }
 }
 
-@media(max-width: 340px) {
+@media(max-width: 320px) {
   body {
     font-size: 1.063em;
   }
+    .header-wrap {
 
-  .container-text .h2 {
-    margin-top: 21px;
-  }
+  height: 1100px;
+
+}
 
   .container-text .sign-up {
     width: 95.5882352941%;
   }
 
   .container-text .text-wrap {
-    width: 99.2647058823%;
+    width: 268px;
   }
 
   .header-wrap .color-align {
