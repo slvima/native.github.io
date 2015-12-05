@@ -1,0 +1,145 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font: 300 1.063em/1.58 'Open Sans';
+  color: rgb(255, 255, 255);
+}
+
+.color-align {
+  position: relative;
+  float: left;
+  z-index: 0;
+  width: 100%;
+  height: 800px;
+  background-color: rgba(35, 38, 42, 0.61);
+}
+
+.container-text {
+  position: absolute;
+  top: 205px;
+  left: 0;
+  right: 0;
+  z-index: 6;
+  width: 80%;
+  height: 390px;
+  margin: 0 auto;
+}
+
+.h2 {
+  width: 643px;
+  min-height: 74px;
+  margin: 13px auto 0;
+  font-size: 1em;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.header-wrap {
+  position: relative;
+  float: left;
+  width: 100%;
+  height: 800px;
+  background-image: url('../images/fgh.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.logo {
+  position: absolute;
+  top: 45px;
+  left: 10%;
+  z-index: 2;
+  width: 190px;
+  height: 57px;
+  background-image: url('../images/final.png');
+  background-size: cover;
+  background-position: center center;
+}
+
+.menu {
+  position: absolute;
+  top: 50px;
+  right: 10%;
+  z-index: 1;
+  width: 35px;
+  height: 41px;
+  background-image: url('../images/menu%20white.png');
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  background-position: center center;
+}
+
+.sign-up {
+  display: block;
+  width: 352px;
+  height: 82px;
+  margin: 58px auto 0;
+  background-color: rgb(188, 195, 66);
+  font-size: 1.176em;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+}
+
+.text-wrap {
+  width: 472px;
+  min-height: 154px;
+  margin: 0 auto;
+  font: 500 3.235em/1.38 Roboto;
+  text-align: center;
+  color: rgb(244, 254, 62);
+}
+
+@media(max-width: 828px) {
+  .container-text .h2 {
+    width: 97.0726299153%;
+  }
+
+  .container-text .text-wrap {
+    width: 71.257047154%;
+  }
+
+  .header-wrap .color-align {
+    position: relative;
+    z-index: 0;
+  }
+
+  .header-wrap .container-text {
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media(max-width: 340px) {
+  body {
+    font-size: 1.063em;
+  }
+
+  .container-text .h2 {
+    margin-top: 21px;
+  }
+
+  .container-text .sign-up {
+    width: 95.5882352941%;
+  }
+
+  .container-text .text-wrap {
+    width: 99.2647058823%;
+  }
+
+  .header-wrap .color-align {
+    position: relative;
+    z-index: 0;
+  }
+
+  .header-wrap .container-text {
+    top: 179px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
