@@ -1,102 +1,25 @@
 body {
   background-color: rgb(255, 255, 255);
-  font: 400 1em/1.38 Lato;
-  color: rgb(242, 216, 63);
-}
-
-h1 {
-  width: 114px;
-  min-height: 32px;
-  margin: 0 auto;
-  font-size: 2.188em;
-  font-weight: 300;
-  line-height: 1.38;
-  text-align: center;
-  letter-spacing: 2px;
-  color: rgb(255, 255, 255);
-}
-
-h2 {
-  width: 165px;
-  min-height: 28px;
-  margin: 7px auto 0;
   font-size: 1em;
-  font-weight: 400;
-  line-height: 1.38;
-  text-align: center;
-  color: rgb(242, 216, 63);
 }
 
-.cont-align {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 4;
-  width: 55.19921875%;
-  height: 264px;
-  margin: auto;
-  border: 5px solid rgb(242, 216, 63);
-  background-color: rgba(222, 222, 222, 0);
-}
-
-.container-align {
-  width: 244px;
-  height: 83px;
+.next_cin {
+  width: 80%;
+  height: 533px;
   margin: 0 auto;
-}
-
-.container-text {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 3;
-  width: 100%;
-  height: 106px;
-  margin: auto;
+  background: url('../images/i38%5Epimgpsh_fullsize_distr.png') rgb(255, 255, 255);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
 }
 
 .sems-container {
   position: relative;
-  float: left;
-  width: 100%;
-  height: 100vh;
-  background: none rgb(36, 36, 36);
-}
-
-@media(max-width: 475px) {
-  div h1 {
-    width: 138px;
-    font-size: 2.813em;
-  }
-
-  div h2 {
-    width: 169px;
-    margin-top: 10px;
-  }
-
-  .cont-align .container-text {
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-  }
-
-  .container-text .container-align {
-    width: 184px;
-  }
-
-  .sems-container .cont-align {
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    width: 80.8421052631%;
-    height: 392px;
-    margin: auto;
-  }
+  width: 80%;
+  height: 750px;
+  margin: 0 auto;
+  background: url('../images/free-perspective-website-mockup.png') rgb(255, 255, 255);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
 }
