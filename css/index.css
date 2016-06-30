@@ -3,11 +3,24 @@ body {
   font-size: 1em;
 }
 
-.next_cin {
+.cel {
   width: 80%;
-  height: 533px;
-  margin: 0 auto;
-  background: url('../images/i38%5Epimgpsh_fullsize_distr.png') rgb(255, 255, 255);
+  height: 451px;
+  margin: 1340px auto 0;
+  background: url('../images/i38%5Epimgpsh_fullsize_distr.png') rgb(234, 234, 234);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+
+.next_cin {
+  position: relative;
+  float: left;
+  z-index: 1;
+  width: 80%;
+  height: 569px;
+  margin: 714px 0 0 10%;
+  background: url('../images/free-perspective-website-mockup(2).png') rgb(255, 255, 255);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
@@ -15,11 +28,26 @@ body {
 
 .sems-container {
   position: relative;
+  float: left;
+  clear: both;
+  z-index: 2;
   width: 80%;
   height: 750px;
-  margin: 0 auto;
-  background: url('../images/free-perspective-website-mockup.png') rgb(255, 255, 255);
+  margin: -1283px 0 0 10%;
+  background: url('../images/i27%5Ecimgpsh_orig.jpg') rgb(255, 255, 255);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
+}
+
+@media(max-width: 475px) {
+  .next_cin {
+    position: relative;
+    z-index: 1;
+  }
+
+  .sems-container {
+    position: relative;
+    z-index: 2;
+  }
 }
