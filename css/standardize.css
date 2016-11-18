@@ -7,10 +7,6 @@
 /**
  * Correct `block` display not defined in IE 8/9.
  */
-a{
-    text-decoration: none;
-    color: inherit;
-}
 
 article,
 aside,
