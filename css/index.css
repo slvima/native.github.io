@@ -14,17 +14,16 @@ body {
   z-index: 0;
   width: 1440px;
   height: 810px;
-  background-image: url('../images/design(5).jpg');
-  background-color: rgb(222, 222, 222);
+
+  background-color: rgb(29, 29, 29);
 }
 
 .element-2 {
   position: absolute;
-  top: 367px;
-  left: 0;
-  right: 0;
+  top: 40px;
+  left: 40px;
   z-index: 1;
-  width: 78px;
+  width: 170px;
   height: 56px;
   margin: 0 auto;
   background-color: rgba(222, 222, 222, 0);
