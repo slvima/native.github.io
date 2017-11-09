@@ -88,3 +88,17 @@ color:#fff;
     transition-delay: 0s,.1s;
     cursor: pointer;
 }
+.title {
+    position: absolute;
+    top: 0%;
+    width: 600px;
+    bottom: 0;
+    right: 20;
+    left: 0;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 400px;
+    font-weight: 700;
+    opacity: .2;
+    
+}
